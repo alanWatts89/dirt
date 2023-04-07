@@ -1,0 +1,384 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 270px;
+  flex-shrink: 1;
+  position: relative;
+  min-width: 0;
+  padding: 8px 8px 0px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-width: 0;
+  margin-left: calc(0px - 15px);
+  width: calc(100% + 15px);
+  margin-top: calc(0px - 15px);
+  height: calc(100% + 15px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.root {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  width: 100%;
+  height: 270px;
+  flex-shrink: 1;
+  flex-wrap: wrap;
+  position: relative;
+  min-width: 0;
+  padding: 8px 8px 0px;
+}
+.root > :global(.__wab_flex-container) > :nth-child(4n + 1) {
+  width: calc((100% - 4 * 15px) * 3 / 12);
+}
+.root > :global(.__wab_flex-container) > :nth-child(4n + 2) {
+  width: calc((100% - 4 * 15px) * 3 / 12);
+}
+.root > :global(.__wab_flex-container) > :nth-child(4n + 3) {
+  width: calc((100% - 4 * 15px) * 3 / 12);
+}
+.root > :global(.__wab_flex-container) > :nth-child(4n + 4) {
+  width: calc((100% - 4 * 15px) * 3 / 12);
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root > :global(.__wab_flex-container) {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    min-width: 0;
+    margin-top: calc(0px - 32px);
+    height: calc(100% + 32px);
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root > :global(.__wab_flex-container) > *,
+  .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .root > :global(.__wab_flex-container) > picture > img,
+  .root
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
+    margin-top: 32px;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root > :global(.__wab_flex-container) > :nth-child(1n + 1) {
+    width: calc((100% - 1 * 15px) * 12 / 12);
+  }
+}
+.column__bhatf {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  background: linear-gradient(#00000066, #00000066),
+    url("https://f.playcode.io/p-1376929/v-1/b8f4d642-17f2-4f1f-8af8-6faf8fe68d1c/casofri-generate-an-image-of-a-spotlight-shining-on-a-logo-in-t-d4f028ba-7967-4497-9d56-c2da55af7e44-1.jpg")
+      top 50% left 50% / cover repeat;
+  padding-bottom: 0px;
+  min-width: 0;
+  border-radius: 24px;
+}
+.column__bhatf > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.column__bhatf > :global(.__wab_flex-container) > *,
+.column__bhatf > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.column__bhatf > :global(.__wab_flex-container) > picture > img,
+.column__bhatf
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 16px;
+}
+.column__bhatf {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#00000066, #00000066),
+    url("https://f.playcode.io/p-1376929/v-1/b8f4d642-17f2-4f1f-8af8-6faf8fe68d1c/casofri-generate-an-image-of-a-spotlight-shining-on-a-logo-in-t-d4f028ba-7967-4497-9d56-c2da55af7e44-1.jpg")
+      top 50% left 50% / cover repeat;
+  padding-bottom: 0px;
+  min-width: 0;
+  border-radius: 24px;
+}
+.freeBox__qfDzf {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  align-self: center;
+  min-width: 0;
+  padding: 0px;
+}
+.h5__s3Hp7 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  color: var(--token-pOi2P6UNKjbL17);
+  line-height: 34px;
+  text-align: center;
+  min-width: 0;
+}
+.column__e3Rwn {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  background: linear-gradient(#00000066, #00000066),
+    url("https://f.playcode.io/p-1376929/v-1/b8f4d642-17f2-4f1f-8af8-6faf8fe68d1c/casofri-generate-an-image-of-a-spotlight-shining-on-a-logo-in-t-d4f028ba-7967-4497-9d56-c2da55af7e44-1.jpg")
+      top 50% left 50% / cover repeat;
+  padding-bottom: 0px;
+  min-width: 0;
+  border-radius: 24px;
+}
+.column__e3Rwn > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.column__e3Rwn > :global(.__wab_flex-container) > *,
+.column__e3Rwn > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.column__e3Rwn > :global(.__wab_flex-container) > picture > img,
+.column__e3Rwn
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 16px;
+}
+.column__e3Rwn {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#00000066, #00000066),
+    url("https://f.playcode.io/p-1376929/v-1/b8f4d642-17f2-4f1f-8af8-6faf8fe68d1c/casofri-generate-an-image-of-a-spotlight-shining-on-a-logo-in-t-d4f028ba-7967-4497-9d56-c2da55af7e44-1.jpg")
+      top 50% left 50% / cover repeat;
+  padding-bottom: 0px;
+  min-width: 0;
+  border-radius: 24px;
+}
+.freeBox__lpLbf {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  align-self: center;
+  min-width: 0;
+  padding: 0px;
+}
+.h5__cSBsD {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  color: var(--token-pOi2P6UNKjbL17);
+  line-height: 34px;
+  text-align: center;
+  min-width: 0;
+}
+.column___6IF8 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  background: linear-gradient(#00000066, #00000066),
+    url("https://f.playcode.io/p-1376929/v-1/b8f4d642-17f2-4f1f-8af8-6faf8fe68d1c/casofri-generate-an-image-of-a-spotlight-shining-on-a-logo-in-t-d4f028ba-7967-4497-9d56-c2da55af7e44-1.jpg")
+      top 50% left 50% / cover repeat;
+  padding-bottom: 0px;
+  min-width: 0;
+  border-radius: 24px;
+}
+.column___6IF8 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.column___6IF8 > :global(.__wab_flex-container) > *,
+.column___6IF8 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.column___6IF8 > :global(.__wab_flex-container) > picture > img,
+.column___6IF8
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 16px;
+}
+.column___6IF8 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#00000066, #00000066),
+    url("https://f.playcode.io/p-1376929/v-1/b8f4d642-17f2-4f1f-8af8-6faf8fe68d1c/casofri-generate-an-image-of-a-spotlight-shining-on-a-logo-in-t-d4f028ba-7967-4497-9d56-c2da55af7e44-1.jpg")
+      top 50% left 50% / cover repeat;
+  padding-bottom: 0px;
+  min-width: 0;
+  border-radius: 24px;
+}
+.freeBox__sXqJ5 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  align-self: center;
+  min-width: 0;
+  padding: 0px;
+}
+.h5__smnOk {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  color: var(--token-pOi2P6UNKjbL17);
+  line-height: 34px;
+  text-align: center;
+  min-width: 0;
+}
+.column__g1OT {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  background: linear-gradient(#00000066, #00000066),
+    url("https://f.playcode.io/p-1376929/v-1/b8f4d642-17f2-4f1f-8af8-6faf8fe68d1c/casofri-generate-an-image-of-a-spotlight-shining-on-a-logo-in-t-d4f028ba-7967-4497-9d56-c2da55af7e44-1.jpg")
+      top 50% left 50% / cover repeat;
+  padding-bottom: 0px;
+  min-width: 0;
+  border-radius: 24px;
+}
+.column__g1OT > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.column__g1OT > :global(.__wab_flex-container) > *,
+.column__g1OT > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.column__g1OT > :global(.__wab_flex-container) > picture > img,
+.column__g1OT
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 16px;
+}
+.column__g1OT {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#00000066, #00000066),
+    url("https://f.playcode.io/p-1376929/v-1/b8f4d642-17f2-4f1f-8af8-6faf8fe68d1c/casofri-generate-an-image-of-a-spotlight-shining-on-a-logo-in-t-d4f028ba-7967-4497-9d56-c2da55af7e44-1.jpg")
+      top 50% left 50% / cover repeat;
+  padding-bottom: 0px;
+  min-width: 0;
+  border-radius: 24px;
+}
+.freeBox__o1Mvh {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  align-self: center;
+  min-width: 0;
+  padding: 0px;
+}
+.h5__gTlP8 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  color: var(--token-pOi2P6UNKjbL17);
+  line-height: 34px;
+  text-align: center;
+  min-width: 0;
+}

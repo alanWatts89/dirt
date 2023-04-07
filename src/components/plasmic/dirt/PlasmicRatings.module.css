@@ -1,0 +1,235 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 200px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 8px;
+}
+.root {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 200px;
+}
+.freeBox {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.freeBox > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-left: calc(0px - 5px);
+  width: calc(100% + 5px);
+}
+.freeBox > :global(.__wab_flex-container) > *,
+.freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox > :global(.__wab_flex-container) > picture > img,
+.freeBox
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 5px;
+}
+.freeBox {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.svg__hclHa {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(239, 206, 74);
+  flex-shrink: 0;
+}
+.svgstars_zero__hclHaRErf3 {
+  display: none;
+}
+.svg__sNicf {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(239, 206, 74);
+  flex-shrink: 0;
+  display: none;
+}
+.svgstars_zero__sNicfrErf3 {
+  display: none;
+}
+.svgstars_one__sNicfOlBgl {
+  display: none;
+}
+.svg___8W7OY {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(239, 206, 74);
+  flex-shrink: 0;
+  display: none;
+}
+.svgstars_zero___8W7OYrErf3 {
+  display: none;
+}
+.svgstars_one___8W7OYOlBgl {
+  display: none;
+}
+.svgstars_two___8W7OY4WZPt {
+  display: none;
+}
+.svg__lCp7 {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(239, 206, 74);
+  flex-shrink: 0;
+  display: none;
+}
+.svgstars_zero__lCp7RErf3 {
+  display: none;
+}
+.svgstars_one__lCp7OlBgl {
+  display: none;
+}
+.svgstars_two__lCp74WZPt {
+  display: none;
+}
+.svgstars_three__lCp7E7Lec {
+  display: none;
+}
+.svg__qG9Mk {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(239, 206, 74);
+  flex-shrink: 0;
+  display: none;
+}
+.svgstars_zero__qG9MkRErf3 {
+  display: none;
+}
+.svgstars_one__qG9MkOlBgl {
+  display: none;
+}
+.svgstars_two__qG9Mk4WZPt {
+  display: none;
+}
+.svgstars_three__qG9MkE7Lec {
+  display: none;
+}
+.svgstars_four__qG9Mk4W0UO {
+  display: none;
+}
+.svg__sGa27 {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(169, 169, 169);
+  flex-shrink: 0;
+  display: none;
+}
+.svgstars_one__sGa27OlBgl {
+  display: none;
+}
+.svgstars_two__sGa274WZPt {
+  display: none;
+}
+.svgstars_three__sGa27E7Lec {
+  display: none;
+}
+.svgstars_four__sGa274W0UO {
+  display: none;
+}
+.svgstars_five__sGa27MrqY9 {
+  display: none;
+}
+.svg__prGu {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(169, 169, 169);
+  flex-shrink: 0;
+}
+.svgstars_two__prGu4WZPt {
+  display: none;
+}
+.svgstars_three__prGuE7Lec {
+  display: none;
+}
+.svgstars_four__prGu4W0UO {
+  display: none;
+}
+.svgstars_five__prGuMrqY9 {
+  display: none;
+}
+.svg__coksY {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(169, 169, 169);
+  flex-shrink: 0;
+}
+.svgstars_three__coksYe7Lec {
+  display: none;
+}
+.svgstars_four__coksY4W0UO {
+  display: none;
+}
+.svgstars_five__coksYMrqY9 {
+  display: none;
+}
+.svg__n7I9H {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(169, 169, 169);
+  flex-shrink: 0;
+}
+.svgstars_four__n7I9H4W0UO {
+  display: none;
+}
+.svgstars_five__n7I9HMrqY9 {
+  display: none;
+}
+.svg__x0No2 {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(169, 169, 169);
+  flex-shrink: 0;
+}
+.svgstars_five__x0No2MrqY9 {
+  display: none;
+}
+.slotTargetNumReviews {
+  font-size: 14px;
+  color: var(--token-dB8m3ZyS9A0_en);
+}
