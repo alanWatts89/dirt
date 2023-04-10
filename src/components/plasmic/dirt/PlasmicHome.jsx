@@ -19,7 +19,6 @@ import {
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
 import Header from "../../Header"; // plasmic-import: 3n34xrGGUZkcT/component
-import Button from "../../Button"; // plasmic-import: my69YTFDut9BnF/component
 import ProductCard from "../../ProductCard"; // plasmic-import: XnnzAWz-1wmuax/component
 import Ratings from "../../Ratings"; // plasmic-import: LN1oqcvcc_f0mJ/component
 import FeatureItem from "../../FeatureItem"; // plasmic-import: fZj-J9nF5TsCnZ/component
@@ -31,6 +30,7 @@ import plasmic_library_plasmic_color_type_css from "../library_plasmic_color_typ
 import projectcss from "./plasmic_dirt.module.css"; // plasmic-import: rEfCz2iwr7rKqS5mwAwHSJ/projectcss
 import sty from "./PlasmicHome.module.css"; // plasmic-import: mthBts1npaTEv/css
 import ButtonArrowIcon from "./icons/PlasmicIcon__ButtonArrow"; // plasmic-import: jA1X_qQL9RhW5A/icon
+import _3373661861889135539184286308817346397104058NjpgLa5Ko2Ljj from "./images/_3373661861889135539184286308817346397104058Njpg.jpg"; // plasmic-import: La5ko2LJJ/picture
 import galinaNMiziNqvJx5MUnsplashjpgV70GzeErt6S0Yu from "./images/galinaNMiziNqvJx5MUnsplashjpg.jpg"; // plasmic-import: V70GzeErt6s0Yu/picture
 import igorSonFvPxCqgtwcUnsplashjpgN5SKfMjAGrb6MG from "./images/igorSonFvPxCqgtwcUnsplashjpg.jpg"; // plasmic-import: n5sKfMjAGrb6mG/picture
 import scottWebbORwRlTgBrPoUnsplashjpgYXbPZp3Of2SeDb from "./images/scottWebbORwRlTgBrPoUnsplashjpg.jpg"; // plasmic-import: yXbPZp3of2SEDb/picture
@@ -47,7 +47,6 @@ import kappaWTg02Mowuh2B9T from "./images/kappa.png"; // plasmic-import: wTG02mo
 import lacosteKaj68TYyQaajMw from "./images/lacoste.png"; // plasmic-import: kaj68TYyQaajMw/picture
 import levisRvI7PgNQj5Wtp from "./images/levis.png"; // plasmic-import: rvI7pgN-qj5Wtp/picture
 import rectangle522JpgCzvM2WfoA from "./images/rectangle522Jpg.jpg"; // plasmic-import: CzvM2wfoA/picture
-import _3373661861889135539184286308817346397104058NjpgLa5Ko2Ljj from "./images/_3373661861889135539184286308817346397104058Njpg.jpg"; // plasmic-import: La5ko2LJJ/picture
 import juijpgF8Ladf4Rp from "./images/juijpg.jpg"; // plasmic-import: F8LADF4rp/picture
 import _3381583781817212155326300914264902575157836NjpgOa31X91DY from "./images/_3381583781817212155326300914264902575157836Njpg.jpg"; // plasmic-import: oa31x91dY/picture
 import image2UGzQjp9UF from "./images/image2.jpg"; // plasmic-import: uGzQjp9uF/picture
@@ -59,7 +58,17 @@ import image7TT61T7K1J from "./images/image7.jpg"; // plasmic-import: tT61t7K1J/
 import image8467ZGkVt from "./images/image8.jpg"; // plasmic-import: 467zGk_Vt/picture
 import _885A96E7999F7Ae014716Db0Aebe5E65111Jpg0Ujr2DdNu from "./images/_885A96E7999F7Ae014716Db0Aebe5E65111Jpg.jpg"; // plasmic-import: 0ujr2DdNu/picture
 import _7297D67932A0041B55828D1B40454Dbf1JpgL2Jw0FrGf from "./images/_7297D67932A0041B55828D1B40454Dbf1Jpg.jpg"; // plasmic-import: l2jw0FrGF/picture
-import frame553JpgWHrqLouyv from "./images/frame553Jpg.jpg"; // plasmic-import: WHrqLouyv/picture
+import peaseAssociateSjpgY9EpBcJuQ from "./images/peaseAssociateSjpg.jpg"; // plasmic-import: Y9EpBcJuQ/picture
+import jLeesBbQjpgImjuSlC9Q from "./images/jLeesBbQjpg.jpg"; // plasmic-import: ImjuSlC9q/picture
+import daSnakePiTpngGuS7Bw7Jt from "./images/daSnakePiTpng.png"; // plasmic-import: GuS7Bw7jt/picture
+import _3391240941799675948400525220417699292435149N1JpgPEy679FAm from "./images/_3391240941799675948400525220417699292435149N1Jpg.jpg"; // plasmic-import: PEy679fAm/picture
+import _33709226522947918340267872600024615334590289NjpgUNqnoDvF from "./images/_33709226522947918340267872600024615334590289Njpg.jpg"; // plasmic-import: uNQNODv-F/picture
+import _3307311999396548807350116722549742184086050N1JpgUnT1Wjxp from "./images/_3307311999396548807350116722549742184086050N1Jpg.jpg"; // plasmic-import: unT1Wjxp_/picture
+import _3391283015515846370626608824099622462839494N1Jpg3MnScJo3N from "./images/_3391283015515846370626608824099622462839494N1Jpg.jpg"; // plasmic-import: 3mnScJO3N/picture
+import _33735967512756423163730991744239742351435727N1Jpg005YFcHt0 from "./images/_33735967512756423163730991744239742351435727N1Jpg.jpg"; // plasmic-import: 005yFcHt0/picture
+import _3389804081773980284517972708567668004898155N1Jpg0XfatosEv from "./images/_3389804081773980284517972708567668004898155N1Jpg.jpg"; // plasmic-import: 0xfatosEv/picture
+import _3388583479576158919329663098772743650319462N1JpgVgyRtz7Rd from "./images/_3388583479576158919329663098772743650319462N1Jpg.jpg"; // plasmic-import: vgyRTZ7rd/picture
+import _3390857286158765470589566118396733230710670N1JpgCwfD9HMCg from "./images/_3390857286158765470589566118396733230710670N1Jpg.jpg"; // plasmic-import: cwfD9hMCg/picture
 import download2JpegO6GumWnq from "./images/download2Jpeg.jpg"; // plasmic-import: o6GUM-WNQ/picture
 
 export const PlasmicHome__VariantProps = new Array();
@@ -141,29 +150,37 @@ function PlasmicHome__RenderFunc(props) {
                   >
                     {'"Dirt" The Movie...Make History With Us!'}
                   </h1>
-                  <Button
-                    data-plasmic-name={"button"}
-                    data-plasmic-override={overrides.button}
-                    className={classNames("__wab_instance", sty.button)}
-                    link={"#sponsor"}
+                  <h1
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.h1,
+                      projectcss.__wab_text,
+                      sty.h1__qbgd3
+                    )}
                   >
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__oKfxD
-                      )}
-                    >
-                      {"Become A Sponsor"}
-                    </div>
-                    <ButtonArrowIcon
-                      className={classNames(projectcss.all, sty.svg__iTliF)}
-                      role={"img"}
-                    />
-                  </Button>
+                    {"Discover Ways To Support Dirt"}
+                  </h1>
                 </p.Stack>
               </div>
             </p.Stack>
+            <p.PlasmicImg
+              alt={""}
+              className={classNames(sty.img__vSm4J)}
+              displayHeight={"auto"}
+              displayMaxHeight={"none"}
+              displayMaxWidth={"100%"}
+              displayMinHeight={"0"}
+              displayMinWidth={"0"}
+              displayWidth={"100%"}
+              loading={"lazy"}
+              src={{
+                src: _3373661861889135539184286308817346397104058NjpgLa5Ko2Ljj,
+                fullWidth: 2400,
+                fullHeight: 1200,
+                aspectRatio: undefined
+              }}
+            />
+
             {true ? (
               <div className={classNames(projectcss.all, sty.freeBox__kaYkg)}>
                 <h2
@@ -1775,86 +1792,235 @@ function PlasmicHome__RenderFunc(props) {
                 >
                   {"Upcoming Events and Screenings:"}
                 </h2>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__cvEsm
-                  )}
-                >
-                  <React.Fragment>
-                    <React.Fragment>
-                      {
-                        "EL PASO        June 3rd, 2023 \n                      7pm\n                     Premiere Cinemas at Bassett\n                     6101 Gateway Blvd W Suite 15\n                     El Paso, TX 79925\n                     **"
-                      }
-                    </React.Fragment>
+                <div className={classNames(projectcss.all, sty.freeBox__lrUvl)}>
+                  <h3
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.h3,
+                      projectcss.__wab_text,
+                      sty.h3__qtwuH
+                    )}
+                  >
+                    {"El Paso"}
+                  </h3>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__q7Bmt
+                    )}
+                  >
+                    {"June 3rd, 2023 7pm"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text___2Rx3C
+                    )}
+                  >
                     {
-                      <a
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.a,
-                          projectcss.__wab_text,
-                          projectcss.plasmic_default__inline,
-                          sty.link__ark3R
-                        )}
-                        href={
-                          "https://www.eventbrite.com/e/dirt-red-carpet-premiere-tickets-598048578397"
-                        }
-                      >
-                        {"TICKETS"}
-                      </a>
+                      "Premiere Cinemas at Bassett\n6101 Gateway Blvd W Suite 15\nEl Paso, TX 79925"
                     }
-
-                    <React.Fragment>
-                      {
-                        '**\n\nDALLAS         June 10th, 2023\n                      7pm\n                      Look Cinemas\n                     12222 Merit Drive\n                     Suite 1700\n                     Dallas, TX 75251\n                       "'
-                      }
-                    </React.Fragment>
+                  </div>
+                  {true ? (
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__bRu)}
+                    >
+                      {true ? (
+                        <a
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.a,
+                            sty.link__halMc
+                          )}
+                          href={
+                            hasVariant(globalVariants, "screen", "mobile")
+                              ? "https://www.eventbrite.com/e/dirt-red-carpet-premiere-tickets-598048578397"
+                              : "https://www.eventbrite.com/e/dirt-red-carpet-premiere-tickets-598048578397"
+                          }
+                          target={"_blank"}
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text___3ZjS
+                            )}
+                          >
+                            {hasVariant(globalVariants, "screen", "mobile")
+                              ? "GET TICKETS"
+                              : "Get Tickets"}
+                          </div>
+                          {(
+                            hasVariant(globalVariants, "screen", "mobile")
+                              ? true
+                              : true
+                          ) ? (
+                            <ButtonArrowIcon
+                              className={classNames(
+                                projectcss.all,
+                                sty.svg__yoj7L
+                              )}
+                              role={"img"}
+                            />
+                          ) : null}
+                        </a>
+                      ) : null}
+                    </div>
+                  ) : null}
+                </div>
+                <div className={classNames(projectcss.all, sty.freeBox__tLh3I)}>
+                  <h3
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.h3,
+                      projectcss.__wab_text,
+                      sty.h3__tcXnN
+                    )}
+                  >
+                    {"DALLAS"}
+                  </h3>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__qy7M
+                    )}
+                  >
+                    {"June 10th, 2023  7pm"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__vlAwf
+                    )}
+                  >
                     {
-                      <a
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.a,
-                          projectcss.__wab_text,
-                          projectcss.plasmic_default__inline,
-                          sty.link__lAaVn
-                        )}
-                        href={
-                          "https://www.eventbrite.com/e/dirt-red-carpet-premiere-event-tickets-609527090937"
-                        }
-                      >
-                        {"TICKETS"}
-                      </a>
+                      "Look Cinemas\n12222 Merit Drive Suite 1700\nDallas, TX 75251"
                     }
-
-                    <React.Fragment>
-                      {
-                        '"\n                             \nMIAMI            June 18th, 2023\n                        Savor Cinema\n                       "'
-                      }
-                    </React.Fragment>
+                  </div>
+                  {true ? (
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__dwu4Q)}
+                    >
+                      {true ? (
+                        <a
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.a,
+                            sty.link__mSq4M
+                          )}
+                          href={
+                            "https://www.eventbrite.com/e/dirt-red-carpet-premiere-event-tickets-609527090937"
+                          }
+                          target={"_blank"}
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__e9Krk
+                            )}
+                          >
+                            {hasVariant(globalVariants, "screen", "mobile")
+                              ? "GET TICKETS"
+                              : "Get Tickets"}
+                          </div>
+                          {(
+                            hasVariant(globalVariants, "screen", "mobile")
+                              ? true
+                              : true
+                          ) ? (
+                            <ButtonArrowIcon
+                              className={classNames(
+                                projectcss.all,
+                                sty.svg___4UC37
+                              )}
+                              role={"img"}
+                            />
+                          ) : null}
+                        </a>
+                      ) : null}
+                    </div>
+                  ) : null}
+                </div>
+                <div className={classNames(projectcss.all, sty.freeBox__z9JVf)}>
+                  <h3
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.h3,
+                      projectcss.__wab_text,
+                      sty.h3__oaCft
+                    )}
+                  >
+                    {"MIAMI"}
+                  </h3>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__yk8La
+                    )}
+                  >
+                    {"June 18th, 2023"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text___77B6J
+                    )}
+                  >
                     {
-                      <a
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.a,
-                          projectcss.__wab_text,
-                          projectcss.plasmic_default__inline,
-                          sty.link__iy7Fs
-                        )}
-                        href={
-                          "https://www.eventbrite.com/e/dirt-red-carpet-premiere-tickets-609550460837"
-                        }
-                      >
-                        {"TICKETS"}
-                      </a>
+                      "Savor Cinema\n503 SE 6th Street\nFort Lauderdale, FL 33301"
                     }
-
-                    <React.Fragment>
-                      {
-                        '"\n                        503 SE 6th Street\n                        Fort Lauderdale, FL 33301'
-                      }
-                    </React.Fragment>
-                  </React.Fragment>
+                  </div>
+                  {true ? (
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__oRgY6)}
+                    >
+                      {true ? (
+                        <a
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.a,
+                            sty.link__lPr23
+                          )}
+                          href={
+                            "https://www.eventbrite.com/e/dirt-red-carpet-premiere-tickets-609550460837"
+                          }
+                          target={"_blank"}
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__coPjy
+                            )}
+                          >
+                            {hasVariant(globalVariants, "screen", "mobile")
+                              ? "GET TICKETS"
+                              : "Get Tickets"}
+                          </div>
+                          {(
+                            hasVariant(globalVariants, "screen", "mobile")
+                              ? true
+                              : true
+                          ) ? (
+                            <ButtonArrowIcon
+                              className={classNames(
+                                projectcss.all,
+                                sty.svg__ecTDg
+                              )}
+                              role={"img"}
+                            />
+                          ) : null}
+                        </a>
+                      ) : null}
+                    </div>
+                  ) : null}
                 </div>
                 <div
                   className={classNames(
@@ -1877,28 +2043,366 @@ function PlasmicHome__RenderFunc(props) {
                 >
                   {"Special Thanks to our Sponsors"}
                 </h2>
-                <p.PlasmicImg
-                  alt={""}
-                  className={classNames(sty.img__y0Pqc)}
-                  displayHeight={"auto"}
-                  displayMaxHeight={"none"}
-                  displayMaxWidth={"100%"}
-                  displayMinHeight={"0"}
-                  displayMinWidth={"0"}
-                  displayWidth={"auto"}
-                  loading={"lazy"}
-                  src={{
-                    src: frame553JpgWHrqLouyv,
-                    fullWidth: 908,
-                    fullHeight: 392,
-                    aspectRatio: undefined
-                  }}
-                />
+                <div className={classNames(projectcss.all, sty.columns__nkOh0)}>
+                  <div
+                    className={classNames(projectcss.all, sty.column__upuVv)}
+                  >
+                    <a
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        sty.link__yReVz
+                      )}
+                      href={"http://peaseassociateslaw.com/site/"}
+                      target={"_blank"}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__lwCds)}
+                        displayHeight={"auto"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"auto"}
+                        loading={"lazy"}
+                        src={{
+                          src: peaseAssociateSjpgY9EpBcJuQ,
+                          fullWidth: 960,
+                          fullHeight: 960,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </a>
+                  </div>
+                  <div
+                    className={classNames(projectcss.all, sty.column__qr1B3)}
+                  >
+                    <a
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        sty.link___3HeC3
+                      )}
+                      href={"https://www.jleessauce.com/"}
+                      target={"_blank"}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__bRVj1)}
+                        displayHeight={"auto"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"auto"}
+                        loading={"lazy"}
+                        src={{
+                          src: jLeesBbQjpgImjuSlC9Q,
+                          fullWidth: 501,
+                          fullHeight: 480,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </a>
+                  </div>
+                  <div
+                    className={classNames(projectcss.all, sty.column__mqCkl)}
+                  >
+                    <a
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        sty.link__v202Y
+                      )}
+                      href={"https://www.instagram.com/da_snakepit/"}
+                      target={"_blank"}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__rc3D2)}
+                        displayHeight={"275px"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"auto"}
+                        loading={"lazy"}
+                        src={{
+                          src: daSnakePiTpngGuS7Bw7Jt,
+                          fullWidth: 371,
+                          fullHeight: 391,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div className={classNames(projectcss.all, sty.columns__qvlkH)}>
+                  <div
+                    className={classNames(projectcss.all, sty.column__sq5Dm)}
+                  >
+                    <a
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        sty.link__uTw2J
+                      )}
+                      href={"https://www.maverickentertainment.cc/"}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__b3H7)}
+                        displayHeight={"auto"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"auto"}
+                        loading={"lazy"}
+                        src={{
+                          src: _3391240941799675948400525220417699292435149N1JpgPEy679FAm,
+                          fullWidth: 900,
+                          fullHeight: 900,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </a>
+                  </div>
+                  <div className={classNames(projectcss.all, sty.column__ePjQ)}>
+                    <a
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        sty.link__hSuC
+                      )}
+                      href={
+                        "https://noticiasya.com/el-paso/?mibextid=Zxz2cZ&fbclid=IwAR0bYWipFGI4-x9PuQhXL3juOKvqjK5yusYL-65hDpJQ5O6BBDRbQh-4mgQ"
+                      }
+                      target={"_blank"}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__c0KYp)}
+                        displayHeight={"auto"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"auto"}
+                        loading={"lazy"}
+                        src={{
+                          src: _33709226522947918340267872600024615334590289NjpgUNqnoDvF,
+                          fullWidth: 441,
+                          fullHeight: 441,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </a>
+                  </div>
+                  <div
+                    className={classNames(projectcss.all, sty.column__s9IcB)}
+                  >
+                    <a
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        sty.link__u0Z3
+                      )}
+                      href={"https://www.perchesfuneralhomes.com/"}
+                      target={"_blank"}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__lhM16)}
+                        displayHeight={"275px"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"auto"}
+                        loading={"lazy"}
+                        src={{
+                          src: _3307311999396548807350116722549742184086050N1JpgUnT1Wjxp,
+                          fullWidth: 1432,
+                          fullHeight: 1850,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div className={classNames(projectcss.all, sty.columns__jw4W)}>
+                  <div
+                    className={classNames(projectcss.all, sty.column__n8Iyj)}
+                  >
+                    <a
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        sty.link___5Rt9J
+                      )}
+                      href={"https://www.grindjj.com/#/"}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__fgFtc)}
+                        displayHeight={"auto"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"auto"}
+                        loading={"lazy"}
+                        src={{
+                          src: _3391283015515846370626608824099622462839494N1Jpg3MnScJo3N,
+                          fullWidth: 1500,
+                          fullHeight: 954,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </a>
+                  </div>
+                  <div
+                    className={classNames(projectcss.all, sty.column__neK5Q)}
+                  >
+                    <a
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        sty.link__rld7D
+                      )}
+                      href={"https://www.facebook.com/macsdowntown915/"}
+                      target={"_blank"}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__n1V6X)}
+                        displayHeight={"161px"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"auto"}
+                        loading={"lazy"}
+                        src={{
+                          src: _33735967512756423163730991744239742351435727N1Jpg005YFcHt0,
+                          fullWidth: 1440,
+                          fullHeight: 966,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </a>
+                  </div>
+                  <div
+                    className={classNames(projectcss.all, sty.column__qyqox)}
+                  >
+                    <a
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        sty.link___8Ax89
+                      )}
+                      href={"https://americaneaglepb.com/index.html"}
+                      target={"_blank"}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__bUooL)}
+                        displayHeight={"225px"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"auto"}
+                        loading={"lazy"}
+                        src={{
+                          src: _3389804081773980284517972708567668004898155N1Jpg0XfatosEv,
+                          fullWidth: 1275,
+                          fullHeight: 1275,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div className={classNames(projectcss.all, sty.columns__th4NA)}>
+                  <div
+                    className={classNames(projectcss.all, sty.column__loSut)}
+                  >
+                    <a
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        sty.link__fmg1H
+                      )}
+                      href={"https://redparrottx.com/"}
+                      target={"_blank"}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__cg9Sj)}
+                        displayHeight={"272px"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"auto"}
+                        loading={"lazy"}
+                        src={{
+                          src: _3388583479576158919329663098772743650319462N1JpgVgyRtz7Rd,
+                          fullWidth: 489,
+                          fullHeight: 608,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </a>
+                  </div>
+                  <div
+                    className={classNames(projectcss.all, sty.column___3Bbdn)}
+                  >
+                    <a
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        sty.link__s7P0W
+                      )}
+                      href={"https://www.facebook.com/SkullKingProductionsLLC/"}
+                      target={"_blank"}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__ighI)}
+                        displayHeight={"auto"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"auto"}
+                        loading={"lazy"}
+                        src={{
+                          src: _3390857286158765470589566118396733230710670N1JpgCwfD9HMCg,
+                          fullWidth: 1080,
+                          fullHeight: 506,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
             <div className={classNames(projectcss.all, sty.freeBox__gnTsF)}>
               <div className={classNames(projectcss.all, sty.columns__w69X9)}>
-                <div className={classNames(projectcss.all, sty.column__sUu7P)}>
+                <div
+                  className={classNames(projectcss.all, sty.column__sUu7P)}
+                />
+
+                <div
+                  className={classNames(projectcss.all, sty.column__yDqoi)}
+                />
+
+                <div className={classNames(projectcss.all, sty.column__umDb3)}>
                   <p.PlasmicImg
                     alt={""}
                     className={classNames(sty.img__vhYmL)}
@@ -1916,12 +2420,7 @@ function PlasmicHome__RenderFunc(props) {
                       aspectRatio: undefined
                     }}
                   />
-                </div>
-                <div
-                  className={classNames(projectcss.all, sty.column__yDqoi)}
-                />
 
-                <div className={classNames(projectcss.all, sty.column__umDb3)}>
                   <div
                     className={classNames(
                       projectcss.all,
@@ -1947,8 +2446,7 @@ function PlasmicHome__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "button", "featureItem", "footer", "bigPlants", "p"],
-  button: ["button"],
+  root: ["root", "featureItem", "footer", "bigPlants", "p"],
   featureItem: ["featureItem"],
   footer: ["footer"],
   bigPlants: ["bigPlants", "p"],
@@ -1988,7 +2486,6 @@ export const PlasmicHome = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    button: makeNodeComponent("button"),
     featureItem: makeNodeComponent("featureItem"),
     footer: makeNodeComponent("footer"),
     bigPlants: makeNodeComponent("bigPlants"),
