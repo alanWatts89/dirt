@@ -145,6 +145,7 @@ function PlasmicHome__RenderFunc(props) {
                     data-plasmic-name={"button"}
                     data-plasmic-override={overrides.button}
                     className={classNames("__wab_instance", sty.button)}
+                    link={"#sponsor"}
                   >
                     <div
                       className={classNames(
@@ -1074,7 +1075,10 @@ function PlasmicHome__RenderFunc(props) {
                 </p.Stack>
               </p.Stack>
             ) : null}
-            <div className={classNames(projectcss.all, sty.freeBox__bEeiZ)}>
+            <div
+              className={classNames(projectcss.all, sty.freeBox__bEeiZ)}
+              id={"sponsor"}
+            >
               <h1
                 className={classNames(
                   projectcss.all,
@@ -1306,99 +1310,91 @@ function PlasmicHome__RenderFunc(props) {
                   </div>
                 ) : null}
               </div>
+              <div className={classNames(projectcss.all, sty.freeBox__kga7F)}>
+                <p.PlasmicImg
+                  alt={""}
+                  className={classNames(sty.img___3WhBc)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"243px"}
+                  loading={"lazy"}
+                  src={
+                    "https://f.playcode.io/p-1376929/v-1/b32354fe-08ae-4823-b420-d61f4341bc42/336777793-1277156922874953-6513762841267237928-n-1-1.jpg"
+                  }
+                />
+
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__mkJcE
+                  )}
+                >
+                  {"Logo (or Name) in Credits"}
+                </div>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__y4INn
+                  )}
+                >
+                  {
+                    "Add your logo or name to the film credits, visible to everyone who watches the film\nAssociate your brand with a local project that resonates with audiences worldwide"
+                  }
+                </div>
+                {true ? (
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__e8Xk2)}
+                  >
+                    {true ? (
+                      <a
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          sty.link__ax5Av
+                        )}
+                        href={
+                          "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3EPQ8M5GRRZWQ"
+                        }
+                        target={"_blank"}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text___7SNt8
+                          )}
+                        >
+                          {hasVariant(globalVariants, "screen", "mobile")
+                            ? "Add Your Logo \n(or Name) to the Credits - $200"
+                            : "Add Your Logo (or Name) to the Credits - $200"}
+                        </div>
+                        {(
+                          hasVariant(globalVariants, "screen", "mobile")
+                            ? true
+                            : true
+                        ) ? (
+                          <ButtonArrowIcon
+                            className={classNames(
+                              projectcss.all,
+                              sty.svg__eNFv6
+                            )}
+                            role={"img"}
+                          />
+                        ) : null}
+                      </a>
+                    ) : null}
+                  </div>
+                ) : null}
+              </div>
               <div className={classNames(projectcss.all, sty.freeBox__wRhkk)}>
                 <div
                   className={classNames(projectcss.all, sty.freeBox___4SwvI)}
                 >
-                  {true ? (
-                    <p.Stack
-                      as={"div"}
-                      hasGap={true}
-                      className={classNames(projectcss.all, sty.freeBox__ej65U)}
-                    >
-                      <p.PlasmicImg
-                        alt={""}
-                        className={classNames(sty.img___3WhBc)}
-                        displayHeight={"auto"}
-                        displayMaxHeight={"none"}
-                        displayMaxWidth={"100%"}
-                        displayMinHeight={"0"}
-                        displayMinWidth={"0"}
-                        displayWidth={"243px"}
-                        loading={"lazy"}
-                        src={
-                          "https://f.playcode.io/p-1376929/v-1/b32354fe-08ae-4823-b420-d61f4341bc42/336777793-1277156922874953-6513762841267237928-n-1-1.jpg"
-                        }
-                      />
-
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__mkJcE
-                        )}
-                      >
-                        {"Logo (or Name) in Credits"}
-                      </div>
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__y4INn
-                        )}
-                      >
-                        {
-                          "Add your logo or name to the film credits, visible to everyone who watches the film\nAssociate your brand with a local project that resonates with audiences worldwide"
-                        }
-                      </div>
-                      {true ? (
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.freeBox__e8Xk2
-                          )}
-                        >
-                          {true ? (
-                            <a
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.a,
-                                sty.link__ax5Av
-                              )}
-                              href={
-                                "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3EPQ8M5GRRZWQ"
-                              }
-                            >
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text___7SNt8
-                                )}
-                              >
-                                {
-                                  "Add Your Logo (or Name) to the Credits - $200"
-                                }
-                              </div>
-                              {(
-                                hasVariant(globalVariants, "screen", "mobile")
-                                  ? true
-                                  : true
-                              ) ? (
-                                <ButtonArrowIcon
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.svg__eNFv6
-                                  )}
-                                  role={"img"}
-                                />
-                              ) : null}
-                            </a>
-                          ) : null}
-                        </div>
-                      ) : null}
-                    </p.Stack>
-                  ) : null}
                   <p.PlasmicImg
                     alt={""}
                     className={classNames(sty.img__zywla)}
