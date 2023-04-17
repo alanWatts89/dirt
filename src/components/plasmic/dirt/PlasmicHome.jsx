@@ -19,6 +19,7 @@ import {
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
 import Header from "../../Header"; // plasmic-import: 3n34xrGGUZkcT/component
+import { Iframe } from "@plasmicpkgs/plasmic-basic-components"; // plasmic-import: CMDBvOhaI4s/codeComponent
 import ProductCard from "../../ProductCard"; // plasmic-import: XnnzAWz-1wmuax/component
 import Ratings from "../../Ratings"; // plasmic-import: LN1oqcvcc_f0mJ/component
 import FeatureItem from "../../FeatureItem"; // plasmic-import: fZj-J9nF5TsCnZ/component
@@ -163,6 +164,24 @@ function PlasmicHome__RenderFunc(props) {
                 </p.Stack>
               </div>
             </p.Stack>
+            <div className={classNames(projectcss.all, sty.freeBox__e0M8T)}>
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text___8E8Eo
+                )}
+              >
+                {"Dirt - The Trailer"}
+              </div>
+              <Iframe
+                data-plasmic-name={"iframe"}
+                data-plasmic-override={overrides.iframe}
+                className={classNames("__wab_instance", sty.iframe)}
+                preview={true}
+                src={"https://www.youtube.com/embed/eKno9tmVaZc"}
+              />
+            </div>
             <p.PlasmicImg
               alt={""}
               className={classNames(sty.img__vSm4J)}
@@ -2446,7 +2465,8 @@ function PlasmicHome__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "featureItem", "footer", "bigPlants", "p"],
+  root: ["root", "iframe", "featureItem", "footer", "bigPlants", "p"],
+  iframe: ["iframe"],
   featureItem: ["featureItem"],
   footer: ["footer"],
   bigPlants: ["bigPlants", "p"],
@@ -2486,6 +2506,7 @@ export const PlasmicHome = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    iframe: makeNodeComponent("iframe"),
     featureItem: makeNodeComponent("featureItem"),
     footer: makeNodeComponent("footer"),
     bigPlants: makeNodeComponent("bigPlants"),
