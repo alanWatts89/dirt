@@ -946,6 +946,11 @@
           "id": "GuS7Bw7jt",
           "name": "DA SNAKE PIT.png",
           "filePath": "plasmic/dirt/images/daSnakePiTpng.png"
+        },
+        {
+          "id": "yirSwc1Mb",
+          "name": "340981347_644403660828854_4896470929646130839_n.png",
+          "filePath": "plasmic/dirt/images/_3409813476444036608288544896470929646130839Npng.png"
         }
       ],
       "indirect": false,
@@ -995,7 +1000,8 @@
           "name": "DataProvider",
           "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     }
   ],
   "globalVariants": {

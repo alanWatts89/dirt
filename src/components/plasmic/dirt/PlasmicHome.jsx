@@ -47,7 +47,7 @@ import hmJrkDtbtLWaOn83 from "./images/hm.png"; // plasmic-import: JRKDtbtLWaOn8
 import kappaWTg02Mowuh2B9T from "./images/kappa.png"; // plasmic-import: wTG02mowuh2b9t/picture
 import lacosteKaj68TYyQaajMw from "./images/lacoste.png"; // plasmic-import: kaj68TYyQaajMw/picture
 import levisRvI7PgNQj5Wtp from "./images/levis.png"; // plasmic-import: rvI7pgN-qj5Wtp/picture
-import rectangle522JpgCzvM2WfoA from "./images/rectangle522Jpg.jpg"; // plasmic-import: CzvM2wfoA/picture
+import _3409813476444036608288544896470929646130839NpngYirSwc1Mb from "./images/_3409813476444036608288544896470929646130839Npng.png"; // plasmic-import: yirSwc1Mb/picture
 import juijpgF8Ladf4Rp from "./images/juijpg.jpg"; // plasmic-import: F8LADF4rp/picture
 import _3381583781817212155326300914264902575157836NjpgOa31X91DY from "./images/_3381583781817212155326300914264902575157836Njpg.jpg"; // plasmic-import: oa31x91dY/picture
 import image2UGzQjp9UF from "./images/image2.jpg"; // plasmic-import: uGzQjp9uF/picture
@@ -1151,9 +1151,9 @@ function PlasmicHome__RenderFunc(props) {
                   displayWidth={"100%"}
                   loading={"lazy"}
                   src={{
-                    src: rectangle522JpgCzvM2WfoA,
-                    fullWidth: 876,
-                    fullHeight: 360,
+                    src: _3409813476444036608288544896470929646130839NpngYirSwc1Mb,
+                    fullWidth: 741,
+                    fullHeight: 307,
                     aspectRatio: undefined
                   }}
                 />
