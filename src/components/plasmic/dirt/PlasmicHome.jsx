@@ -2516,10 +2516,12 @@ export const PlasmicHome = Object.assign(
     internalArgProps: PlasmicHome__ArgProps,
     // Page metadata
     pageMetadata: {
-      title: "",
-      description: "",
-      ogImageSrc: "",
-      canonical: ""
+      title: "Dirt - The Movie",
+      description:
+        'Discover "Dirt," the movie, and ways to support Dirt, featuring a talented cast and directed by Bryan G Thompson. Get involved and stay tuned for its exciting release!',
+      ogImageSrc:
+        "https://site-assets.plasmic.app/14618749855a8716e8fd3fd3b59a854b.jpg",
+      canonical: "https://dirt-the-movie.netlify.app/"
     }
   }
 );
