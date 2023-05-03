@@ -951,6 +951,26 @@
           "id": "yirSwc1Mb",
           "name": "340981347_644403660828854_4896470929646130839_n.png",
           "filePath": "plasmic/dirt/images/_3409813476444036608288544896470929646130839Npng.png"
+        },
+        {
+          "id": "p-szt2YBJ",
+          "name": "2023-05-03 12_09_18-Facebook.png",
+          "filePath": "plasmic/dirt/images/_20230503120918Facebookpng.png"
+        },
+        {
+          "id": "JWAPJuT6N",
+          "name": "JL.jpg",
+          "filePath": "plasmic/dirt/images/jLjpg.jpg"
+        },
+        {
+          "id": "hGgQPEc70",
+          "name": "THE WOOD PR (1).jpeg",
+          "filePath": "plasmic/dirt/images/theWoodPr1Jpeg.jpg"
+        },
+        {
+          "id": "HEB_jbjbv",
+          "name": "343401624_966917644744400_4496738799610672373_n.png",
+          "filePath": "plasmic/dirt/images/_3434016249669176447444004496738799610672373Npng.png"
         }
       ],
       "indirect": false,
@@ -1000,8 +1020,7 @@
           "name": "DataProvider",
           "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
         }
-      ],
-      "jsBundleThemes": []
+      ]
     }
   ],
   "globalVariants": {
@@ -1015,6 +1034,6 @@
     ]
   },
   "wrapPagesWithGlobalContexts": true,
-  "cliVersion": "0.1.259",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.259/dist/plasmic.schema.json"
+  "cliVersion": "0.1.272",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.272/dist/plasmic.schema.json"
 }
