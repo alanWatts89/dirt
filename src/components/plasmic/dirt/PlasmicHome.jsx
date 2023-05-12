@@ -1011,7 +1011,7 @@ function PlasmicHome__RenderFunc(props) {
                         sty.text___1WxWv
                       )}
                     >
-                      {"June 18th, 2023"}
+                      {"June 17th, 2023"}
                     </div>
                     <div
                       className={classNames(
