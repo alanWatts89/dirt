@@ -30,19 +30,6 @@
 .root {
   --plsmc-rc-col-gap: 0px;
 }
-.root {
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
-  justify-content: center;
-  width: 100%;
-  height: 270px;
-  flex-shrink: 1;
-  flex-wrap: wrap;
-  position: relative;
-  min-width: 0;
-  padding: 8px 8px 0px;
-}
 .root > :global(.__wab_flex-container) > :nth-child(4n + 1) {
   width: calc((100% - 4 * var(--plsmc-rc-col-gap, 0px)) * 3 / 12);
 }
@@ -87,17 +74,6 @@
   }
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .root {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-    height: auto;
-    flex-wrap: wrap;
-    min-width: 0;
-  }
-}
-@media (min-width: 0px) and (max-width: 768px) {
   .root > :global(.__wab_flex-container) > :nth-child(1n + 1) {
     width: calc((100% - 1 * var(--plsmc-rc-col-gap, 0px)) * 12 / 12);
   }
@@ -133,22 +109,6 @@
   > picture
   > img {
   margin-top: 16px;
-}
-.column__bhatf {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(#00000066, #00000066),
-    url("https://f.playcode.io/p-1376929/v-1/b8f4d642-17f2-4f1f-8af8-6faf8fe68d1c/casofri-generate-an-image-of-a-spotlight-shining-on-a-logo-in-t-d4f028ba-7967-4497-9d56-c2da55af7e44-1.jpg")
-      top 50% left 50% / cover repeat;
-  padding-bottom: 0px;
-  min-width: 0;
-  border-radius: 24px;
 }
 .freeBox__qfDzf {
   display: flex;
@@ -205,22 +165,6 @@
   > img {
   margin-top: 16px;
 }
-.column__e3Rwn {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(#00000066, #00000066),
-    url("https://f.playcode.io/p-1376929/v-1/b8f4d642-17f2-4f1f-8af8-6faf8fe68d1c/casofri-generate-an-image-of-a-spotlight-shining-on-a-logo-in-t-d4f028ba-7967-4497-9d56-c2da55af7e44-1.jpg")
-      top 50% left 50% / cover repeat;
-  padding-bottom: 0px;
-  min-width: 0;
-  border-radius: 24px;
-}
 .freeBox__lpLbf {
   display: flex;
   position: relative;
@@ -276,22 +220,6 @@
   > img {
   margin-top: 16px;
 }
-.column___6IF8 {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(#00000066, #00000066),
-    url("https://f.playcode.io/p-1376929/v-1/b8f4d642-17f2-4f1f-8af8-6faf8fe68d1c/casofri-generate-an-image-of-a-spotlight-shining-on-a-logo-in-t-d4f028ba-7967-4497-9d56-c2da55af7e44-1.jpg")
-      top 50% left 50% / cover repeat;
-  padding-bottom: 0px;
-  min-width: 0;
-  border-radius: 24px;
-}
 .freeBox__sXqJ5 {
   display: flex;
   position: relative;
@@ -346,22 +274,6 @@
   > picture
   > img {
   margin-top: 16px;
-}
-.column__g1OT {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(#00000066, #00000066),
-    url("https://f.playcode.io/p-1376929/v-1/b8f4d642-17f2-4f1f-8af8-6faf8fe68d1c/casofri-generate-an-image-of-a-spotlight-shining-on-a-logo-in-t-d4f028ba-7967-4497-9d56-c2da55af7e44-1.jpg")
-      top 50% left 50% / cover repeat;
-  padding-bottom: 0px;
-  min-width: 0;
-  border-radius: 24px;
 }
 .freeBox__o1Mvh {
   display: flex;

@@ -17,14 +17,6 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-left: 8px;
 }
-.root {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  width: 200px;
-}
 .freeBox {
   display: flex;
   position: relative;
@@ -46,13 +38,6 @@
   > picture
   > img {
   margin-left: 5px;
-}
-.freeBox {
-  display: flex;
-  position: relative;
-  flex-direction: row;
-  align-items: stretch;
-  justify-content: flex-start;
 }
 .svg__hclHa {
   position: relative;

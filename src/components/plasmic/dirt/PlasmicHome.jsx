@@ -48,6 +48,9 @@ import hmJrkDtbtLWaOn83 from "./images/hm.png"; // plasmic-import: JRKDtbtLWaOn8
 import kappaWTg02Mowuh2B9T from "./images/kappa.png"; // plasmic-import: wTG02mowuh2b9t/picture
 import lacosteKaj68TYyQaajMw from "./images/lacoste.png"; // plasmic-import: kaj68TYyQaajMw/picture
 import levisRvI7PgNQj5Wtp from "./images/levis.png"; // plasmic-import: rvI7pgN-qj5Wtp/picture
+import miamIjpegLXq8UELl from "./images/miamIjpeg.jpg"; // plasmic-import: LXq8uE_Ll/picture
+import dallas1JpegXIhw8Txfl from "./images/dallas1Jpeg.jpg"; // plasmic-import: XIhw8txfl/picture
+import elPasOjpegFEh7M8Wp from "./images/elPasOjpeg.jpg"; // plasmic-import: fEH7m8_Wp/picture
 import _3409813476444036608288544896470929646130839NpngYirSwc1Mb from "./images/_3409813476444036608288544896470929646130839Npng.png"; // plasmic-import: yirSwc1Mb/picture
 import juijpgF8Ladf4Rp from "./images/juijpg.jpg"; // plasmic-import: F8LADF4rp/picture
 import _3381583781817212155326300914264902575157836NjpgOa31X91DY from "./images/_3381583781817212155326300914264902575157836Njpg.jpg"; // plasmic-import: oa31x91dY/picture
@@ -71,6 +74,7 @@ import _33735967512756423163730991744239742351435727N1Jpg005YFcHt0 from "./image
 import _3389804081773980284517972708567668004898155N1Jpg0XfatosEv from "./images/_3389804081773980284517972708567668004898155N1Jpg.jpg"; // plasmic-import: 0xfatosEv/picture
 import _3388583479576158919329663098772743650319462N1JpgVgyRtz7Rd from "./images/_3388583479576158919329663098772743650319462N1Jpg.jpg"; // plasmic-import: vgyRTZ7rd/picture
 import _3390857286158765470589566118396733230710670N1JpgCwfD9HMCg from "./images/_3390857286158765470589566118396733230710670N1Jpg.jpg"; // plasmic-import: cwfD9hMCg/picture
+import tsWjpgP4BGhGVj8 from "./images/tsWjpg.jpg"; // plasmic-import: P4bGhGVj8/picture
 import theWoodPr1JpegHGgQpEc70 from "./images/theWoodPr1Jpeg.jpg"; // plasmic-import: hGgQPEc70/picture
 import download2JpegO6GumWnq from "./images/download2Jpeg.jpg"; // plasmic-import: o6GUM-WNQ/picture
 
@@ -197,11 +201,24 @@ function PlasmicHome__RenderFunc(props) {
                 {"Dirt - The Trailer"}
               </div>
               <Iframe
-                data-plasmic-name={"iframe"}
-                data-plasmic-override={overrides.iframe}
-                className={classNames("__wab_instance", sty.iframe)}
+                className={classNames("__wab_instance", sty.iframe__hdxu6)}
                 preview={true}
                 src={"https://www.youtube.com/embed/eKno9tmVaZc"}
+              />
+
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__mOajg
+                )}
+              >
+                {"Dirt - The Event"}
+              </div>
+              <Iframe
+                className={classNames("__wab_instance", sty.iframe__ba8VC)}
+                preview={true}
+                src={"https://www.youtube.com/embed/-Hss1pmMNZo"}
               />
 
               <div
@@ -213,6 +230,12 @@ function PlasmicHome__RenderFunc(props) {
               >
                 {"In The News"}
               </div>
+              <Iframe
+                className={classNames("__wab_instance", sty.iframe__c3OfC)}
+                preview={true}
+                src={"https://www.youtube.com/embed/0FAN_qWxqBI"}
+              />
+
               <div className={classNames(projectcss.all, sty.columns__rfsJ)}>
                 <div className={classNames(projectcss.all, sty.column__xpQfY)}>
                   <p.PlasmicImg
@@ -837,36 +860,24 @@ function PlasmicHome__RenderFunc(props) {
                 {"Upcoming Events and Screenings:"}
               </h2>
               <div className={classNames(projectcss.all, sty.freeBox__c5Mq7)}>
-                <h3
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.h3,
-                    projectcss.__wab_text,
-                    sty.h3__c12Xv
-                  )}
-                >
-                  {"El Paso"}
-                </h3>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__wcLvP
-                  )}
-                >
-                  {"June 3rd, 2023 7pm"}
-                </div>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text___1B623
-                  )}
-                >
-                  {
-                    "Premiere Cinemas at Bassett\n6101 Gateway Blvd W Suite 15\nEl Paso, TX 79925"
-                  }
-                </div>
+                <p.PlasmicImg
+                  alt={""}
+                  className={classNames(sty.img__dAfmC)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"auto"}
+                  loading={"lazy"}
+                  src={{
+                    src: miamIjpegLXq8UELl,
+                    fullWidth: 2000,
+                    fullHeight: 1125,
+                    aspectRatio: undefined
+                  }}
+                />
+
                 {true ? (
                   <div
                     className={classNames(projectcss.all, sty.freeBox__h2XDx)}
@@ -914,36 +925,24 @@ function PlasmicHome__RenderFunc(props) {
                   </div>
                 ) : null}
                 <div className={classNames(projectcss.all, sty.freeBox__uz9M5)}>
-                  <h3
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.h3,
-                      projectcss.__wab_text,
-                      sty.h3__z925T
-                    )}
-                  >
-                    {"DALLAS"}
-                  </h3>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__bts8
-                    )}
-                  >
-                    {"June 10th, 2023  7pm"}
-                  </div>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__hHrBt
-                    )}
-                  >
-                    {
-                      "Look Cinemas\n12222 Merit Drive Suite 1700\nDallas, TX 75251"
-                    }
-                  </div>
+                  <p.PlasmicImg
+                    alt={""}
+                    className={classNames(sty.img__iuLpj)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    loading={"lazy"}
+                    src={{
+                      src: dallas1JpegXIhw8Txfl,
+                      fullWidth: 2000,
+                      fullHeight: 1125,
+                      aspectRatio: undefined
+                    }}
+                  />
+
                   {true ? (
                     <div
                       className={classNames(
@@ -994,36 +993,24 @@ function PlasmicHome__RenderFunc(props) {
                   <div
                     className={classNames(projectcss.all, sty.freeBox__oeVrq)}
                   >
-                    <h3
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.h3,
-                        projectcss.__wab_text,
-                        sty.h3___8MPyZ
-                      )}
-                    >
-                      {"MIAMI"}
-                    </h3>
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text___1WxWv
-                      )}
-                    >
-                      {"June 17th, 2023"}
-                    </div>
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__eAkx
-                      )}
-                    >
-                      {
-                        "Savor Cinema\n503 SE 6th Street\nFort Lauderdale, FL 33301"
-                      }
-                    </div>
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img__roGB)}
+                      displayHeight={"auto"}
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={"100%"}
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={"auto"}
+                      loading={"lazy"}
+                      src={{
+                        src: elPasOjpegFEh7M8Wp,
+                        fullWidth: 2000,
+                        fullHeight: 1125,
+                        aspectRatio: undefined
+                      }}
+                    />
+
                     {true ? (
                       <div
                         className={classNames(
@@ -2083,10 +2070,32 @@ function PlasmicHome__RenderFunc(props) {
                   </div>
                 </div>
                 <div className={classNames(projectcss.all, sty.columns__ap5S)}>
-                  <div
-                    className={classNames(projectcss.all, sty.column__uCYl)}
-                  />
-
+                  <a
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      sty.column__uCYl
+                    )}
+                    href={"https://texasstylewrestling.com/videos"}
+                  >
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img___3EEij)}
+                      displayHeight={"272px"}
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={"100%"}
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={"auto"}
+                      loading={"lazy"}
+                      src={{
+                        src: tsWjpgP4BGhGVj8,
+                        fullWidth: 400,
+                        fullHeight: 400,
+                        aspectRatio: undefined
+                      }}
+                    />
+                  </a>
                   <div
                     className={classNames(projectcss.all, sty.column__eC18X)}
                   >
@@ -2526,8 +2535,7 @@ function PlasmicHome__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "iframe", "featureItem", "footer", "bigPlants", "p"],
-  iframe: ["iframe"],
+  root: ["root", "featureItem", "footer", "bigPlants", "p"],
   featureItem: ["featureItem"],
   footer: ["footer"],
   bigPlants: ["bigPlants", "p"],
@@ -2567,7 +2575,6 @@ export const PlasmicHome = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    iframe: makeNodeComponent("iframe"),
     featureItem: makeNodeComponent("featureItem"),
     footer: makeNodeComponent("footer"),
     bigPlants: makeNodeComponent("bigPlants"),

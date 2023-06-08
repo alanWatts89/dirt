@@ -46,16 +46,6 @@
   > img {
   margin-left: 5px;
 }
-.freeBox__gznm2 {
-  display: flex;
-  width: 100%;
-  height: auto;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 0px;
-  min-width: 0;
-  padding: 50px 0px 0px;
-}
 @media (min-width: 0px) and (max-width: 768px) {
   .freeBox__gznm2 {
     padding: 16px 10px;
@@ -65,13 +55,6 @@
   .freeBox__gznm2 > :global(.__wab_flex-container) {
     align-items: center;
     justify-content: center;
-  }
-}
-@media (min-width: 0px) and (max-width: 768px) {
-  .freeBox__gznm2 {
-    align-items: center;
-    justify-content: center;
-    padding: 16px 10px;
   }
 }
 .menuButton:global(.__wab_instance) {

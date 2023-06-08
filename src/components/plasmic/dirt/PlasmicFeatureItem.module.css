@@ -66,16 +66,6 @@
   > img {
   margin-top: 12px;
 }
-.freeBox__obxB {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: center;
-  width: 100%;
-  max-width: 720px;
-  min-width: 0;
-  padding: 32px 24px;
-}
 .text__e910O {
   position: relative;
   color: var(--token-pOi2P6UNKjbL17);
@@ -122,13 +112,6 @@
   > picture
   > img {
   margin-left: 8px;
-}
-.freeBox__mqfW2 {
-  display: flex;
-  position: relative;
-  flex-direction: row;
-  align-items: stretch;
-  justify-content: flex-start;
 }
 .linkButton:global(.__wab_instance) {
   position: relative;

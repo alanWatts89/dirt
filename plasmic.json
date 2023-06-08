@@ -971,6 +971,26 @@
           "id": "HEB_jbjbv",
           "name": "343401624_966917644744400_4496738799610672373_n.png",
           "filePath": "plasmic/dirt/images/_3434016249669176447444004496738799610672373Npng.png"
+        },
+        {
+          "id": "LXq8uE_Ll",
+          "name": "MIAMI.jpeg",
+          "filePath": "plasmic/dirt/images/miamIjpeg.jpg"
+        },
+        {
+          "id": "fEH7m8_Wp",
+          "name": "EL PASO.jpeg",
+          "filePath": "plasmic/dirt/images/elPasOjpeg.jpg"
+        },
+        {
+          "id": "XIhw8txfl",
+          "name": "DALLAS (1).jpeg",
+          "filePath": "plasmic/dirt/images/dallas1Jpeg.jpg"
+        },
+        {
+          "id": "P4bGhGVj8",
+          "name": "TSW.jpg",
+          "filePath": "plasmic/dirt/images/tsWjpg.jpg"
         }
       ],
       "indirect": false,
@@ -979,11 +999,13 @@
         {
           "id": "fdadb5on7p",
           "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
           "componentImportPath": "@plasmicapp/react-web"
         },
         {
           "id": "exTDGFlY3f",
           "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
           "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
         }
       ]
@@ -1003,21 +1025,25 @@
         {
           "id": "CMDBvOhaI4s",
           "name": "Iframe",
+          "displayName": "hostless-iframe",
           "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
         },
         {
           "id": "RhitNJW5Zu-",
           "name": "Video",
+          "displayName": "hostless-html-video",
           "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
         },
         {
           "id": "PKldDYkH42",
           "name": "Embed",
+          "displayName": "hostless-embed",
           "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
         },
         {
           "id": "D4RbnlpRXg3",
           "name": "DataProvider",
+          "displayName": "hostless-data-provider",
           "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
         }
       ]
@@ -1034,6 +1060,6 @@
     ]
   },
   "wrapPagesWithGlobalContexts": true,
-  "cliVersion": "0.1.275",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.275/dist/plasmic.schema.json"
+  "cliVersion": "0.1.292",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.292/dist/plasmic.schema.json"
 }

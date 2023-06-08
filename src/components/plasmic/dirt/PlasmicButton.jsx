@@ -39,7 +39,8 @@ export const PlasmicButton__ArgProps = new Array(
   "startIcon",
   "endIcon",
   "link",
-  "submitsForm"
+  "submitsForm",
+  "target"
 );
 
 const __wrapUserFunction =
