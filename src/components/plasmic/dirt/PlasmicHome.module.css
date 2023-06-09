@@ -1204,16 +1204,16 @@
   min-width: 0;
   padding: 8px;
 }
-.img__dAfmC {
+.img__roGB {
   position: relative;
   object-fit: cover;
   max-width: 100%;
   margin: 42px 0px 0px;
 }
-.img__dAfmC > picture > img {
+.img__roGB > picture > img {
   object-fit: cover;
 }
-.img__dAfmC > :global(.__wab_img-spacer) > img {
+.img__roGB > :global(.__wab_img-spacer) > img {
   object-fit: cover;
 }
 .freeBox__h2XDx {
@@ -1396,16 +1396,16 @@
   min-width: 0;
   padding: 8px;
 }
-.img__roGB {
+.img__dAfmC {
   position: relative;
   object-fit: cover;
   max-width: 100%;
   margin: 42px 0px 0px;
 }
-.img__roGB > picture > img {
+.img__dAfmC > picture > img {
   object-fit: cover;
 }
-.img__roGB > :global(.__wab_img-spacer) > img {
+.img__dAfmC > :global(.__wab_img-spacer) > img {
   object-fit: cover;
 }
 .freeBox__nbd1W {

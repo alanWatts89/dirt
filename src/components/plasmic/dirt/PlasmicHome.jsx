@@ -48,9 +48,9 @@ import hmJrkDtbtLWaOn83 from "./images/hm.png"; // plasmic-import: JRKDtbtLWaOn8
 import kappaWTg02Mowuh2B9T from "./images/kappa.png"; // plasmic-import: wTG02mowuh2b9t/picture
 import lacosteKaj68TYyQaajMw from "./images/lacoste.png"; // plasmic-import: kaj68TYyQaajMw/picture
 import levisRvI7PgNQj5Wtp from "./images/levis.png"; // plasmic-import: rvI7pgN-qj5Wtp/picture
-import miamIjpegLXq8UELl from "./images/miamIjpeg.jpg"; // plasmic-import: LXq8uE_Ll/picture
-import dallas1JpegXIhw8Txfl from "./images/dallas1Jpeg.jpg"; // plasmic-import: XIhw8txfl/picture
 import elPasOjpegFEh7M8Wp from "./images/elPasOjpeg.jpg"; // plasmic-import: fEH7m8_Wp/picture
+import dallas1JpegXIhw8Txfl from "./images/dallas1Jpeg.jpg"; // plasmic-import: XIhw8txfl/picture
+import miamIjpegLXq8UELl from "./images/miamIjpeg.jpg"; // plasmic-import: LXq8uE_Ll/picture
 import _3409813476444036608288544896470929646130839NpngYirSwc1Mb from "./images/_3409813476444036608288544896470929646130839Npng.png"; // plasmic-import: yirSwc1Mb/picture
 import juijpgF8Ladf4Rp from "./images/juijpg.jpg"; // plasmic-import: F8LADF4rp/picture
 import _3381583781817212155326300914264902575157836NjpgOa31X91DY from "./images/_3381583781817212155326300914264902575157836Njpg.jpg"; // plasmic-import: oa31x91dY/picture
@@ -862,7 +862,7 @@ function PlasmicHome__RenderFunc(props) {
               <div className={classNames(projectcss.all, sty.freeBox__c5Mq7)}>
                 <p.PlasmicImg
                   alt={""}
-                  className={classNames(sty.img__dAfmC)}
+                  className={classNames(sty.img__roGB)}
                   displayHeight={"auto"}
                   displayMaxHeight={"none"}
                   displayMaxWidth={"100%"}
@@ -871,7 +871,7 @@ function PlasmicHome__RenderFunc(props) {
                   displayWidth={"auto"}
                   loading={"lazy"}
                   src={{
-                    src: miamIjpegLXq8UELl,
+                    src: elPasOjpegFEh7M8Wp,
                     fullWidth: 2000,
                     fullHeight: 1125,
                     aspectRatio: undefined
@@ -995,7 +995,7 @@ function PlasmicHome__RenderFunc(props) {
                   >
                     <p.PlasmicImg
                       alt={""}
-                      className={classNames(sty.img__roGB)}
+                      className={classNames(sty.img__dAfmC)}
                       displayHeight={"auto"}
                       displayMaxHeight={"none"}
                       displayMaxWidth={"100%"}
@@ -1004,7 +1004,7 @@ function PlasmicHome__RenderFunc(props) {
                       displayWidth={"auto"}
                       loading={"lazy"}
                       src={{
-                        src: elPasOjpegFEh7M8Wp,
+                        src: miamIjpegLXq8UELl,
                         fullWidth: 2000,
                         fullHeight: 1125,
                         aspectRatio: undefined
