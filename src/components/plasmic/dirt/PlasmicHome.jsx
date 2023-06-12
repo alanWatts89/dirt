@@ -50,7 +50,7 @@ import lacosteKaj68TYyQaajMw from "./images/lacoste.png"; // plasmic-import: kaj
 import levisRvI7PgNQj5Wtp from "./images/levis.png"; // plasmic-import: rvI7pgN-qj5Wtp/picture
 import elPasOjpegFEh7M8Wp from "./images/elPasOjpeg.jpg"; // plasmic-import: fEH7m8_Wp/picture
 import dallas1JpegXIhw8Txfl from "./images/dallas1Jpeg.jpg"; // plasmic-import: XIhw8txfl/picture
-import miamIjpegLXq8UELl from "./images/miamIjpeg.jpg"; // plasmic-import: LXq8uE_Ll/picture
+import dirtDallasSoldOutjpgMbf58VBjk from "./images/dirtDallasSoldOutjpg.jpg"; // plasmic-import: MBF58VBjk/picture
 import _3409813476444036608288544896470929646130839NpngYirSwc1Mb from "./images/_3409813476444036608288544896470929646130839Npng.png"; // plasmic-import: yirSwc1Mb/picture
 import juijpgF8Ladf4Rp from "./images/juijpg.jpg"; // plasmic-import: F8LADF4rp/picture
 import _3381583781817212155326300914264902575157836NjpgOa31X91DY from "./images/_3381583781817212155326300914264902575157836Njpg.jpg"; // plasmic-import: oa31x91dY/picture
@@ -234,6 +234,12 @@ function PlasmicHome__RenderFunc(props) {
                 className={classNames("__wab_instance", sty.iframe__c3OfC)}
                 preview={true}
                 src={"https://www.youtube.com/embed/0FAN_qWxqBI"}
+              />
+
+              <Iframe
+                className={classNames("__wab_instance", sty.iframe__qochM)}
+                preview={true}
+                src={"https://www.youtube.com/embed/pitxC5q2tVM"}
               />
 
               <div className={classNames(projectcss.all, sty.columns__rfsJ)}>
@@ -1004,7 +1010,7 @@ function PlasmicHome__RenderFunc(props) {
                       displayWidth={"auto"}
                       loading={"lazy"}
                       src={{
-                        src: miamIjpegLXq8UELl,
+                        src: dirtDallasSoldOutjpgMbf58VBjk,
                         fullWidth: 2000,
                         fullHeight: 1125,
                         aspectRatio: undefined

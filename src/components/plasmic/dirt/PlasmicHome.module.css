@@ -325,6 +325,26 @@
     padding: 24px;
   }
 }
+.iframe__qochM:global(.__wab_instance) {
+  width: 670px;
+  height: 372px;
+  max-width: 100%;
+  object-fit: cover;
+  position: relative;
+  align-self: center;
+  margin-top: 60px;
+  margin-bottom: 96px;
+  flex-shrink: 0;
+  padding: 0px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .iframe__qochM:global(.__wab_instance) {
+    height: 244px;
+    margin-bottom: 0px;
+    flex-shrink: 0;
+    padding: 24px;
+  }
+}
 .columns__rfsJ {
   --plsmc-rc-col-gap: 0px;
 }
