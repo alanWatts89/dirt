@@ -152,7 +152,7 @@ function PlasmicAboutUs__RenderFunc(props) {
                         >
                           {hasVariant(globalVariants, "screen", "mobile")
                             ? "I didn't know the Snipcart guys were into herbs as well! How beautiful is that Planty theme. I'm going to launch a killer JAMstack e-commerce store using this for sure."
-                            : "Well, not really. We’re Snipcart —a bunch of geeks from Québec City. Planty is a theme we built for Stackbit , a killer JAMstack site-builder. To enable e-commerce on Planty, you’ll need to sign up for Snipcart. Testing is forever free, no credit card required."}
+                            : "Well, not really. We\u2019re Snipcart \u2014a bunch of geeks from Qu\u00e9bec City. Planty is a theme we built for Stackbit , a killer JAMstack site-builder. To enable e-commerce on Planty, you\u2019ll need to sign up for Snipcart. Testing is forever free, no credit card required."}
                         </div>
                       </div>
                     ) : null}
@@ -1430,7 +1430,7 @@ function PlasmicAboutUs__RenderFunc(props) {
                       >
                         {hasVariant(globalVariants, "screen", "mobile")
                           ? "I didn't know the Snipcart guys were into herbs as well! How beautiful is that Planty theme. I'm going to launch a killer JAMstack e-commerce store using this for sure."
-                          : "Now THAT is true, but we love web development even more. We talk about it on our blog, like, a lot.  We often craft live demos and open source these bad boys on GitHub. Matter of fact, this Planty theme is open source too! If you spot any bugs, open an issue, and we’ll fire our junior dev. Just kidding Michael, you’re good."}
+                          : "Now THAT is true, but we love web development even more. We talk about it on our blog, like, a lot.  We often craft live demos and open source these bad boys on GitHub. Matter of fact, this Planty theme is open source too! If you spot any bugs, open an issue, and we\u2019ll fire our junior dev. Just kidding Michael, you\u2019re good."}
                       </div>
                     </p.Stack>
                   </p.Stack>
@@ -1475,7 +1475,7 @@ function PlasmicAboutUs__RenderFunc(props) {
                       >
                         {hasVariant(globalVariants, "screen", "mobile")
                           ? "I didn't know the Snipcart guys were into herbs as well! How beautiful is that Planty theme. I'm going to launch a killer JAMstack e-commerce store using this for sure."
-                          : "Word. But good code can  solve a lots of problems, too. New and old. That’s why we help beginners get started with web development through free content and tools, like this theme. We also believe the JAMstack might be one solid pillar on which we build that future."}
+                          : "Word. But good code can  solve a lots of problems, too. New and old. That\u2019s why we help beginners get started with web development through free content and tools, like this theme. We also believe the JAMstack might be one solid pillar on which we build that future."}
                       </div>
                     </p.Stack>
                     <div

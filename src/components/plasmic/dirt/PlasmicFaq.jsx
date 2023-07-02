@@ -153,7 +153,7 @@ function PlasmicFaq__RenderFunc(props) {
                         >
                           {hasVariant(globalVariants, "screen", "mobile")
                             ? "I didn't know the Snipcart guys were into herbs as well! How beautiful is that Planty theme. I'm going to launch a killer JAMstack e-commerce store using this for sure."
-                            : "All right, friends. Let’s do this. This section will cover basic, frequently asked questions for e-commerce merchants."}
+                            : "All right, friends. Let\u2019s do this. This section will cover basic, frequently asked questions for e-commerce merchants."}
                         </div>
                       </div>
                     ) : null}
@@ -1385,7 +1385,7 @@ function PlasmicFaq__RenderFunc(props) {
                   >
                     {hasVariant(globalVariants, "screen", "mobile")
                       ? "I didn't know the Snipcart guys were into herbs as well! How beautiful is that Planty theme. I'm going to launch a killer JAMstack e-commerce store using this for sure."
-                      : "Now that’s a frequent one all right, ain’t it? Your answer to this should manage customer expectations. Just like a good checkout flow should. Tell them the truth"}
+                      : "Now that\u2019s a frequent one all right, ain\u2019t it? Your answer to this should manage customer expectations. Just like a good checkout flow should. Tell them the truth"}
                   </div>
                   {true ? (
                     <p.Stack
@@ -1478,7 +1478,7 @@ function PlasmicFaq__RenderFunc(props) {
                             )}
                           >
                             {
-                              "Mars shipping will be automatically redirected to Elon Musk’s Twitter account."
+                              "Mars shipping will be automatically redirected to Elon Musk\u2019s Twitter account."
                             }
                           </div>
                         </p.Stack>
@@ -1585,7 +1585,7 @@ function PlasmicFaq__RenderFunc(props) {
                                 )}
                               >
                                 {
-                                  "If you’d like another version of your item, please use the return label. Instructions are printed on its back."
+                                  "If you\u2019d like another version of your item, please use the return label. Instructions are printed on its back."
                                 }
                               </div>
                             </p.Stack>
@@ -1615,7 +1615,7 @@ function PlasmicFaq__RenderFunc(props) {
                                 )}
                               >
                                 {
-                                  "If your item is damaged or not functioning correctly, email us at info@planty.com, and we’ll refund you + send you a new one ASAP!"
+                                  "If your item is damaged or not functioning correctly, email us at info@planty.com, and we\u2019ll refund you + send you a new one ASAP!"
                                 }
                               </div>
                             </p.Stack>
@@ -1651,7 +1651,7 @@ function PlasmicFaq__RenderFunc(props) {
                   >
                     {hasVariant(globalVariants, "screen", "mobile")
                       ? "I didn't know the Snipcart guys were into herbs as well! How beautiful is that Planty theme. I'm going to launch a killer JAMstack e-commerce store using this for sure."
-                      : "GDPR, am I right? Make sure you’re as transparent as possible with your data handling process. Or, if you’re using Snipcart, just refer to our ToS and DPA"}
+                      : "GDPR, am I right? Make sure you\u2019re as transparent as possible with your data handling process. Or, if you\u2019re using Snipcart, just refer to our ToS and DPA"}
                   </div>
                 </p.Stack>
               ) : null}
@@ -1680,7 +1680,7 @@ function PlasmicFaq__RenderFunc(props) {
                   >
                     {hasVariant(globalVariants, "screen", "mobile")
                       ? "I didn't know the Snipcart guys were into herbs as well! How beautiful is that Planty theme. I'm going to launch a killer JAMstack e-commerce store using this for sure."
-                      : "GDPR, am I right? Make sure you’re as transparent as possible with your data handling process. Or, if you’re using Snipcart, just refer to our ToS and DPA"}
+                      : "GDPR, am I right? Make sure you\u2019re as transparent as possible with your data handling process. Or, if you\u2019re using Snipcart, just refer to our ToS and DPA"}
                   </div>
                   {true ? (
                     <p.Stack
@@ -1741,7 +1741,7 @@ function PlasmicFaq__RenderFunc(props) {
                             )}
                           >
                             {
-                              "A: We believe in Stackbit’s promise of opening up the JAMstack to more developers. Plus, we trust these folks.\n Read more about Stackbit"
+                              "A: We believe in Stackbit\u2019s promise of opening up the JAMstack to more developers. Plus, we trust these folks.\n Read more about Stackbit"
                             }
                           </div>
                         </div>
@@ -1770,7 +1770,7 @@ function PlasmicFaq__RenderFunc(props) {
                             )}
                           >
                             {
-                              "A: Not a lot! We’re a small, bootstrapped team of eight human beings. Michael might be a robot, though. "
+                              "A: Not a lot! We\u2019re a small, bootstrapped team of eight human beings. Michael might be a robot, though. "
                             }
                           </div>
                         </div>
@@ -1789,7 +1789,7 @@ function PlasmicFaq__RenderFunc(props) {
                               sty.text__lxb2K
                             )}
                           >
-                            {"Q: Why is Snipcart based in Québec City?"}
+                            {"Q: Why is Snipcart based in Qu\u00e9bec City?"}
                           </div>
                           <div
                             className={classNames(
@@ -1798,7 +1798,7 @@ function PlasmicFaq__RenderFunc(props) {
                               sty.text___2409
                             )}
                           >
-                            {"A: Have you been here? It’s beaaautiful!"}
+                            {"A: Have you been here? It\u2019s beaaautiful!"}
                           </div>
                         </div>
                       ) : null}
@@ -1816,7 +1816,7 @@ function PlasmicFaq__RenderFunc(props) {
                               sty.text__zWibx
                             )}
                           >
-                            {"Q: What’s the meaning of life? "}
+                            {"Q: What\u2019s the meaning of life? "}
                           </div>
                           <div
                             className={classNames(
@@ -1826,7 +1826,7 @@ function PlasmicFaq__RenderFunc(props) {
                             )}
                           >
                             {
-                              "A: We’re not quite sure. But building useful products with people we love feels meaningful enough."
+                              "A: We\u2019re not quite sure. But building useful products with people we love feels meaningful enough."
                             }
                           </div>
                         </div>
@@ -1929,7 +1929,7 @@ function PlasmicFaq__RenderFunc(props) {
                         >
                           {hasVariant(globalVariants, "screen", "mobile")
                             ? "Behold our FAQ"
-                            : "226 rue St-Joseph E, \nQuébec, QC, Canada, \nG1K 3A9"}
+                            : "226 rue St-Joseph E, \nQu\u00e9bec, QC, Canada, \nG1K 3A9"}
                         </div>
                         <div
                           className={classNames(
@@ -2143,8 +2143,8 @@ function PlasmicFaq__RenderFunc(props) {
                             )}
                           >
                             {hasVariant(globalVariants, "screen", "mobile")
-                              ? "© Company. All rights reserved. This site proudly built with "
-                              : "© Company. All rights reserved. This site proudly built with "}
+                              ? "\u00a9 Company. All rights reserved. This site proudly built with "
+                              : "\u00a9 Company. All rights reserved. This site proudly built with "}
                           </div>
                           <a
                             className={classNames(

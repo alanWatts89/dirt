@@ -153,7 +153,7 @@ function PlasmicProductCarousel__RenderFunc(props) {
               data-plasmic-name={"linkButton"}
               data-plasmic-override={overrides.linkButton}
               className={classNames("__wab_instance", sty.linkButton)}
-              text={"⊕ Add to cart"}
+              text={"\u2295 Add to cart"}
               type={"solidOrange"}
             />
           </p.Stack>

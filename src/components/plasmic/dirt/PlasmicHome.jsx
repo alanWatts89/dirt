@@ -215,6 +215,104 @@ function PlasmicHome__RenderFunc(props) {
               >
                 {"Dirt - The Event"}
               </div>
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__r35Yh
+                )}
+              >
+                {"Photos from Dirt's Premiere"}
+              </div>
+              <div className={classNames(projectcss.all, sty.columns__aluKj)}>
+                <div className={classNames(projectcss.all, sty.column__xo2WM)}>
+                  {true ? (
+                    <a
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        sty.link__w2VsE
+                      )}
+                      href={
+                        hasVariant(globalVariants, "screen", "mobile")
+                          ? "https://www.eventbrite.com/e/dirt-red-carpet-premiere-tickets-598048578397"
+                          : "https://photos.app.goo.gl/AZsbozERsdaoCs4t8"
+                      }
+                      target={"_blank"}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__kaeYw
+                        )}
+                      >
+                        {hasVariant(globalVariants, "screen", "mobile")
+                          ? "Photos From Dallas"
+                          : "Photos From Dallas"}
+                      </div>
+                    </a>
+                  ) : null}
+                </div>
+                <div className={classNames(projectcss.all, sty.column__bvhp4)}>
+                  {true ? (
+                    <a
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        sty.link__tnfQ
+                      )}
+                      href={
+                        hasVariant(globalVariants, "screen", "mobile")
+                          ? "https://photos.app.goo.gl/7oyKxzgi8zsoAR3G8"
+                          : "https://photos.app.goo.gl/7oyKxzgi8zsoAR3G8"
+                      }
+                      target={"_blank"}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__w50ZP
+                        )}
+                      >
+                        {hasVariant(globalVariants, "screen", "mobile")
+                          ? "Photos From Fort Lauderdale"
+                          : "Photos From Fort Lauderdale"}
+                      </div>
+                    </a>
+                  ) : null}
+                </div>
+                <div className={classNames(projectcss.all, sty.column__bR8Q)}>
+                  {true ? (
+                    <a
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        sty.link__bW4OI
+                      )}
+                      href={
+                        hasVariant(globalVariants, "screen", "mobile")
+                          ? "https://photos.app.goo.gl/ppqJBAYUR9jJPLka7"
+                          : "https://photos.app.goo.gl/ppqJBAYUR9jJPLka7"
+                      }
+                      target={"_blank"}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__wzETu
+                        )}
+                      >
+                        {hasVariant(globalVariants, "screen", "mobile")
+                          ? "Photos From El Paso"
+                          : "Photos From El Paso"}
+                      </div>
+                    </a>
+                  ) : null}
+                </div>
+              </div>
               <Iframe
                 className={classNames("__wab_instance", sty.iframe__ba8VC)}
                 preview={true}
@@ -854,86 +952,22 @@ function PlasmicHome__RenderFunc(props) {
             hasGap={true}
             className={classNames(projectcss.all, sty.bigPlants)}
           >
-            <div className={classNames(projectcss.all, sty.freeBox__tgwZq)}>
-              <h2
-                className={classNames(
-                  projectcss.all,
-                  projectcss.h2,
-                  projectcss.__wab_text,
-                  sty.h2__aXjAu
-                )}
-              >
-                {"Upcoming Events and Screenings:"}
-              </h2>
-              <div className={classNames(projectcss.all, sty.freeBox__c5Mq7)}>
-                <p.PlasmicImg
-                  alt={""}
-                  className={classNames(sty.img__roGB)}
-                  displayHeight={"auto"}
-                  displayMaxHeight={"none"}
-                  displayMaxWidth={"100%"}
-                  displayMinHeight={"0"}
-                  displayMinWidth={"0"}
-                  displayWidth={"auto"}
-                  loading={"lazy"}
-                  src={{
-                    src: elPasOjpegFEh7M8Wp,
-                    fullWidth: 2000,
-                    fullHeight: 1125,
-                    aspectRatio: undefined
-                  }}
-                />
-
-                {true ? (
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__h2XDx)}
-                  >
-                    {true ? (
-                      <a
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.a,
-                          sty.link__gkm2A
-                        )}
-                        href={
-                          hasVariant(globalVariants, "screen", "mobile")
-                            ? "https://www.eventbrite.com/e/dirt-red-carpet-premiere-tickets-598048578397"
-                            : "https://www.eventbrite.com/e/dirt-red-carpet-premiere-tickets-598048578397"
-                        }
-                        target={"_blank"}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text___7DwYc
-                          )}
-                        >
-                          {hasVariant(globalVariants, "screen", "mobile")
-                            ? "GET TICKETS"
-                            : "Get Tickets"}
-                        </div>
-                        {(
-                          hasVariant(globalVariants, "screen", "mobile")
-                            ? true
-                            : true
-                        ) ? (
-                          <ButtonArrowIcon
-                            className={classNames(
-                              projectcss.all,
-                              sty.svg__kvSx
-                            )}
-                            role={"img"}
-                          />
-                        ) : null}
-                      </a>
-                    ) : null}
-                  </div>
-                ) : null}
-                <div className={classNames(projectcss.all, sty.freeBox__uz9M5)}>
+            {true ? (
+              <div className={classNames(projectcss.all, sty.freeBox__tgwZq)}>
+                <h2
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.h2,
+                    projectcss.__wab_text,
+                    sty.h2__aXjAu
+                  )}
+                >
+                  {"Upcoming Events and Screenings:"}
+                </h2>
+                <div className={classNames(projectcss.all, sty.freeBox__c5Mq7)}>
                   <p.PlasmicImg
                     alt={""}
-                    className={classNames(sty.img__dAfmC)}
+                    className={classNames(sty.img__roGB)}
                     displayHeight={"auto"}
                     displayMaxHeight={"none"}
                     displayMaxWidth={"100%"}
@@ -942,7 +976,7 @@ function PlasmicHome__RenderFunc(props) {
                     displayWidth={"auto"}
                     loading={"lazy"}
                     src={{
-                      src: dirtDallasSoldOutjpgMbf58VBjk,
+                      src: elPasOjpegFEh7M8Wp,
                       fullWidth: 2000,
                       fullHeight: 1125,
                       aspectRatio: undefined
@@ -951,20 +985,19 @@ function PlasmicHome__RenderFunc(props) {
 
                   {true ? (
                     <div
-                      className={classNames(
-                        projectcss.all,
-                        sty.freeBox___7A4Uy
-                      )}
+                      className={classNames(projectcss.all, sty.freeBox__h2XDx)}
                     >
                       {true ? (
                         <a
                           className={classNames(
                             projectcss.all,
                             projectcss.a,
-                            sty.link__bdQin
+                            sty.link__gkm2A
                           )}
                           href={
-                            "https://www.eventbrite.com/e/dirt-red-carpet-premiere-event-tickets-609527090937"
+                            hasVariant(globalVariants, "screen", "mobile")
+                              ? "https://www.eventbrite.com/e/dirt-red-carpet-premiere-tickets-598048578397"
+                              : "https://www.eventbrite.com/e/dirt-red-carpet-premiere-tickets-598048578397"
                           }
                           target={"_blank"}
                         >
@@ -972,7 +1005,7 @@ function PlasmicHome__RenderFunc(props) {
                             className={classNames(
                               projectcss.all,
                               projectcss.__wab_text,
-                              sty.text__nmjXk
+                              sty.text___7DwYc
                             )}
                           >
                             {hasVariant(globalVariants, "screen", "mobile")
@@ -987,7 +1020,7 @@ function PlasmicHome__RenderFunc(props) {
                             <ButtonArrowIcon
                               className={classNames(
                                 projectcss.all,
-                                sty.svg__q1HcF
+                                sty.svg__kvSx
                               )}
                               role={"img"}
                             />
@@ -997,11 +1030,11 @@ function PlasmicHome__RenderFunc(props) {
                     </div>
                   ) : null}
                   <div
-                    className={classNames(projectcss.all, sty.freeBox__oeVrq)}
+                    className={classNames(projectcss.all, sty.freeBox__uz9M5)}
                   >
                     <p.PlasmicImg
                       alt={""}
-                      className={classNames(sty.img__g2RtF)}
+                      className={classNames(sty.img__dAfmC)}
                       displayHeight={"auto"}
                       displayMaxHeight={"none"}
                       displayMaxWidth={"100%"}
@@ -1010,7 +1043,7 @@ function PlasmicHome__RenderFunc(props) {
                       displayWidth={"auto"}
                       loading={"lazy"}
                       src={{
-                        src: miamIjpegLXq8UELl,
+                        src: dirtDallasSoldOutjpgMbf58VBjk,
                         fullWidth: 2000,
                         fullHeight: 1125,
                         aspectRatio: undefined
@@ -1021,7 +1054,7 @@ function PlasmicHome__RenderFunc(props) {
                       <div
                         className={classNames(
                           projectcss.all,
-                          sty.freeBox__nbd1W
+                          sty.freeBox___7A4Uy
                         )}
                       >
                         {true ? (
@@ -1029,10 +1062,10 @@ function PlasmicHome__RenderFunc(props) {
                             className={classNames(
                               projectcss.all,
                               projectcss.a,
-                              sty.link__kRQdc
+                              sty.link__bdQin
                             )}
                             href={
-                              "https://www.eventbrite.com/e/dirt-red-carpet-premiere-tickets-609550460837"
+                              "https://www.eventbrite.com/e/dirt-red-carpet-premiere-event-tickets-609527090937"
                             }
                             target={"_blank"}
                           >
@@ -1040,7 +1073,7 @@ function PlasmicHome__RenderFunc(props) {
                               className={classNames(
                                 projectcss.all,
                                 projectcss.__wab_text,
-                                sty.text___79RtL
+                                sty.text__nmjXk
                               )}
                             >
                               {hasVariant(globalVariants, "screen", "mobile")
@@ -1055,7 +1088,7 @@ function PlasmicHome__RenderFunc(props) {
                               <ButtonArrowIcon
                                 className={classNames(
                                   projectcss.all,
-                                  sty.svg___5H4C
+                                  sty.svg__q1HcF
                                 )}
                                 role={"img"}
                               />
@@ -1064,10 +1097,79 @@ function PlasmicHome__RenderFunc(props) {
                         ) : null}
                       </div>
                     ) : null}
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__oeVrq)}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__g2RtF)}
+                        displayHeight={"auto"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"auto"}
+                        loading={"lazy"}
+                        src={{
+                          src: miamIjpegLXq8UELl,
+                          fullWidth: 2000,
+                          fullHeight: 1125,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      {true ? (
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox__nbd1W
+                          )}
+                        >
+                          {true ? (
+                            <a
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.a,
+                                sty.link__kRQdc
+                              )}
+                              href={
+                                "https://www.eventbrite.com/e/dirt-red-carpet-premiere-tickets-609550460837"
+                              }
+                              target={"_blank"}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text___79RtL
+                                )}
+                              >
+                                {hasVariant(globalVariants, "screen", "mobile")
+                                  ? "GET TICKETS"
+                                  : "Get Tickets"}
+                              </div>
+                              {(
+                                hasVariant(globalVariants, "screen", "mobile")
+                                  ? true
+                                  : true
+                              ) ? (
+                                <ButtonArrowIcon
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.svg___5H4C
+                                  )}
+                                  role={"img"}
+                                />
+                              ) : null}
+                            </a>
+                          ) : null}
+                        </div>
+                      ) : null}
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
+            ) : null}
             <div
               className={classNames(projectcss.all, sty.freeBox__bEeiZ)}
               id={"sponsor"}
@@ -1082,278 +1184,328 @@ function PlasmicHome__RenderFunc(props) {
               >
                 {"Become A Sponsor"}
               </h1>
-              <p
-                data-plasmic-name={"p"}
-                data-plasmic-override={overrides.p}
+              <h1
                 className={classNames(
                   projectcss.all,
-                  projectcss.p,
+                  projectcss.h1,
                   projectcss.__wab_text,
-                  sty.p
+                  sty.h1__f4CfM
                 )}
               >
                 {
-                  'Choose from three impactful ways to support "Dirt" and make your mark on El Paso\'s film scene.'
+                  "The sequel to \u201cDirt\u201d is called \u201cClutch\u201d.  If you would like to become a sponsor for \u201cClutch\u201d by showcasing your brand in the movie, please click this link to find out how:"
                 }
-              </p>
-              <div className={classNames(projectcss.all, sty.freeBox__nDf9F)}>
-                <p.PlasmicImg
-                  alt={""}
-                  className={classNames(sty.img__c3Sqp)}
-                  displayHeight={"auto"}
-                  displayMaxHeight={"none"}
-                  displayMaxWidth={"100%"}
-                  displayMinHeight={"0"}
-                  displayMinWidth={"0"}
-                  displayWidth={"100%"}
-                  loading={"lazy"}
-                  src={{
-                    src: _3409813476444036608288544896470929646130839NpngYirSwc1Mb,
-                    fullWidth: 741,
-                    fullHeight: 307,
-                    aspectRatio: undefined
-                  }}
-                />
-
-                <div
+              </h1>
+              {true ? (
+                <a
                   className={classNames(
                     projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__pXu4C
+                    projectcss.a,
+                    sty.link__tzhZ
                   )}
+                  href={
+                    hasVariant(globalVariants, "screen", "mobile")
+                      ? "https://www.eventbrite.com/e/dirt-red-carpet-premiere-tickets-598048578397"
+                      : "https://mailchi.mp/7245f43d3a20/clutch"
+                  }
+                  target={"_blank"}
                 >
-                  {"Billboard Sponsorship"}
-                </div>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__p7Wzm
-                  )}
-                >
-                  <React.Fragment>
-                    <React.Fragment>{""}</React.Fragment>
-                    {
-                      <ul
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.ul,
-                          sty.ul__ik9F
-                        )}
-                      >
-                        <li
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.li,
-                            projectcss.__wab_text,
-                            sty.li__udRr
-                          )}
-                        >
-                          {
-                            " Showcase your business logo on a prominent 14' x 48' billboard in El Paso"
-                          }
-                        </li>
-                      </ul>
-                    }
-
-                    <React.Fragment>{""}</React.Fragment>
-                    {
-                      <ul
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.ul,
-                          sty.ul__fOpIn
-                        )}
-                      >
-                        <li
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.li,
-                            projectcss.__wab_text,
-                            sty.li__ofKvY
-                          )}
-                        >
-                          {
-                            "Promote the film and your brand to a wide local audience"
-                          }
-                        </li>
-                      </ul>
-                    }
-
-                    <React.Fragment>{""}</React.Fragment>
-                  </React.Fragment>
-                </div>
-                {true ? (
                   <div
-                    className={classNames(projectcss.all, sty.freeBox__e1R9U)}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__cGwx
+                    )}
                   >
-                    {true ? (
-                      <a
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.a,
-                          sty.link__tNb0Z
-                        )}
-                        href={
-                          "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DXGJU57MSMMZ4"
-                        }
-                      >
-                        <div
+                    {hasVariant(globalVariants, "screen", "mobile")
+                      ? "Sponsor Clutch"
+                      : "Sponsor Clutch"}
+                  </div>
+                </a>
+              ) : null}
+              {true ? (
+                <p
+                  data-plasmic-name={"p"}
+                  data-plasmic-override={overrides.p}
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.p,
+                    projectcss.__wab_text,
+                    sty.p
+                  )}
+                >
+                  {
+                    'Choose from three impactful ways to support "Dirt" and make your mark on El Paso\'s film scene.'
+                  }
+                </p>
+              ) : null}
+              {true ? (
+                <div className={classNames(projectcss.all, sty.freeBox__nDf9F)}>
+                  {true ? (
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img__c3Sqp)}
+                      displayHeight={"auto"}
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={"100%"}
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={"100%"}
+                      loading={"lazy"}
+                      src={{
+                        src: _3409813476444036608288544896470929646130839NpngYirSwc1Mb,
+                        fullWidth: 741,
+                        fullHeight: 307,
+                        aspectRatio: undefined
+                      }}
+                    />
+                  ) : null}
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__pXu4C
+                    )}
+                  >
+                    {"Billboard Sponsorship"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__p7Wzm
+                    )}
+                  >
+                    <React.Fragment>
+                      <React.Fragment>{""}</React.Fragment>
+                      {
+                        <ul
                           className={classNames(
                             projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__jjbNp
+                            projectcss.ul,
+                            sty.ul__ik9F
                           )}
                         >
-                          {'Sponsor the "Dirt" Billboard - $1000'}
-                        </div>
-                        {(
-                          hasVariant(globalVariants, "screen", "mobile")
-                            ? true
-                            : true
-                        ) ? (
-                          <ButtonArrowIcon
+                          <li
                             className={classNames(
                               projectcss.all,
-                              sty.svg___53Exh
+                              projectcss.li,
+                              projectcss.__wab_text,
+                              sty.li__udRr
                             )}
-                            role={"img"}
-                          />
-                        ) : null}
-                      </a>
-                    ) : null}
-                  </div>
-                ) : null}
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__xNalh
-                  )}
-                >
-                  {""}
-                </div>
-              </div>
-              <div className={classNames(projectcss.all, sty.freeBox___3AeCt)}>
-                {true ? (
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__tk3Go)}
-                  >
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__fXuEk
-                      )}
-                    >
-                      {"Step and Repeat Banner Sponsorship"}
-                    </div>
-                  </div>
-                ) : null}
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__fpGkc
-                  )}
-                >
-                  {
-                    "Feature your logo on our Step and Repeat Banner at premiere events in El Paso, Dallas, and Miami\nGain viral exposure as attendees share photos and videos with your logo"
-                  }
-                </div>
-                {true ? (
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__tBuYk)}
-                  >
-                    {true ? (
-                      <a
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.a,
-                          sty.link__bh75J
-                        )}
-                        href={""}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__aldZa
-                          )}
-                        >
-                          {"SOLD OUT"}
-                        </div>
-                      </a>
-                    ) : null}
-                  </div>
-                ) : null}
-              </div>
-              <div className={classNames(projectcss.all, sty.freeBox__kga7F)}>
-                <p.PlasmicImg
-                  alt={""}
-                  className={classNames(sty.img___3WhBc)}
-                  displayHeight={"auto"}
-                  displayMaxHeight={"none"}
-                  displayMaxWidth={"100%"}
-                  displayMinHeight={"0"}
-                  displayMinWidth={"0"}
-                  displayWidth={"243px"}
-                  loading={"lazy"}
-                  src={
-                    "https://f.playcode.io/p-1376929/v-1/b32354fe-08ae-4823-b420-d61f4341bc42/336777793-1277156922874953-6513762841267237928-n-1-1.jpg"
-                  }
-                />
+                          >
+                            {
+                              " Showcase your business logo on a prominent 14' x 48' billboard in El Paso"
+                            }
+                          </li>
+                        </ul>
+                      }
 
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__mkJcE
-                  )}
-                >
-                  {"Logo (or Name) in Credits"}
-                </div>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__y4INn
-                  )}
-                >
-                  {
-                    "Add your logo or name to the film credits, visible to everyone who watches the film\nAssociate your brand with a local project that resonates with audiences worldwide"
-                  }
-                </div>
-                {true ? (
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__e8Xk2)}
-                  >
-                    {true ? (
-                      <a
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.a,
-                          sty.link__ax5Av
-                        )}
-                        href={""}
-                        target={"_blank"}
-                      >
-                        <div
+                      <React.Fragment>{""}</React.Fragment>
+                      {
+                        <ul
                           className={classNames(
                             projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text___7SNt8
+                            projectcss.ul,
+                            sty.ul__fOpIn
                           )}
                         >
-                          {hasVariant(globalVariants, "screen", "mobile")
-                            ? "SOLD OUT"
-                            : "SOLD OUT"}
-                        </div>
-                      </a>
-                    ) : null}
+                          <li
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.li,
+                              projectcss.__wab_text,
+                              sty.li__ofKvY
+                            )}
+                          >
+                            {
+                              "Promote the film and your brand to a wide local audience"
+                            }
+                          </li>
+                        </ul>
+                      }
+
+                      <React.Fragment>{""}</React.Fragment>
+                    </React.Fragment>
                   </div>
-                ) : null}
-              </div>
+                  {true ? (
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__e1R9U)}
+                    >
+                      {true ? (
+                        <a
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.a,
+                            sty.link__tNb0Z
+                          )}
+                          href={
+                            "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DXGJU57MSMMZ4"
+                          }
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__jjbNp
+                            )}
+                          >
+                            {'Sponsor the "Dirt" Billboard - $1000'}
+                          </div>
+                          {(
+                            hasVariant(globalVariants, "screen", "mobile")
+                              ? true
+                              : true
+                          ) ? (
+                            <ButtonArrowIcon
+                              className={classNames(
+                                projectcss.all,
+                                sty.svg___53Exh
+                              )}
+                              role={"img"}
+                            />
+                          ) : null}
+                        </a>
+                      ) : null}
+                    </div>
+                  ) : null}
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__xNalh
+                    )}
+                  >
+                    {""}
+                  </div>
+                </div>
+              ) : null}
+              {true ? (
+                <div
+                  className={classNames(projectcss.all, sty.freeBox___3AeCt)}
+                >
+                  {true ? (
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__tk3Go)}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__fXuEk
+                        )}
+                      >
+                        {"Step and Repeat Banner Sponsorship"}
+                      </div>
+                    </div>
+                  ) : null}
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__fpGkc
+                    )}
+                  >
+                    {
+                      "Feature your logo on our Step and Repeat Banner at premiere events in El Paso, Dallas, and Miami\nGain viral exposure as attendees share photos and videos with your logo"
+                    }
+                  </div>
+                  {true ? (
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__tBuYk)}
+                    >
+                      {true ? (
+                        <a
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.a,
+                            sty.link__bh75J
+                          )}
+                          href={""}
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__aldZa
+                            )}
+                          >
+                            {"SOLD OUT"}
+                          </div>
+                        </a>
+                      ) : null}
+                    </div>
+                  ) : null}
+                </div>
+              ) : null}
+              {true ? (
+                <div className={classNames(projectcss.all, sty.freeBox__kga7F)}>
+                  <p.PlasmicImg
+                    alt={""}
+                    className={classNames(sty.img___3WhBc)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"243px"}
+                    loading={"lazy"}
+                    src={
+                      "https://f.playcode.io/p-1376929/v-1/b32354fe-08ae-4823-b420-d61f4341bc42/336777793-1277156922874953-6513762841267237928-n-1-1.jpg"
+                    }
+                  />
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__mkJcE
+                    )}
+                  >
+                    {"Logo (or Name) in Credits"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__y4INn
+                    )}
+                  >
+                    {
+                      "Add your logo or name to the film credits, visible to everyone who watches the film\nAssociate your brand with a local project that resonates with audiences worldwide"
+                    }
+                  </div>
+                  {true ? (
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__e8Xk2)}
+                    >
+                      {true ? (
+                        <a
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.a,
+                            sty.link__ax5Av
+                          )}
+                          href={""}
+                          target={"_blank"}
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text___7SNt8
+                            )}
+                          >
+                            {hasVariant(globalVariants, "screen", "mobile")
+                              ? "SOLD OUT"
+                              : "SOLD OUT"}
+                          </div>
+                        </a>
+                      ) : null}
+                    </div>
+                  ) : null}
+                </div>
+              ) : null}
               <div className={classNames(projectcss.all, sty.freeBox__wRhkk)}>
                 <div className={classNames(projectcss.all, sty.columns__q7Pfn)}>
                   <div className={classNames(projectcss.all, sty.column__ut4Y)}>
@@ -1441,7 +1593,7 @@ function PlasmicHome__RenderFunc(props) {
                   )}
                 >
                   {
-                    '“Dirt” prominently features El Paso actors, including actress Sophia Knolton, known for "Christmas with the Carters",  prominent Univision weatherman Aldo Acosta, "Valentine\'s Date" actress and El Paso native Kathy Thomas-Aldrich, and "El Sueño" actress Diajesma Orozco.  Other El Paso actors with prominent roles are pro wrestler Frank Stone, Jorge Estrada, and Jesus Moralez.. The title role “Dirt” is played by actor Tyrone Betters, known for is role in A True Christmas. It also stars actor Jamal Woolard, best known for portraying rapper The Notorious B.I.G. in the film "Notorious", and in the Tupac Shakur biopic "All Eyez on Me".'
+                    '\u201cDirt\u201d prominently features El Paso actors, including actress Sophia Knolton, known for "Christmas with the Carters",  prominent Univision weatherman Aldo Acosta, "Valentine\'s Date" actress and El Paso native Kathy Thomas-Aldrich, and "El Sue\u00f1o" actress Diajesma Orozco.  Other El Paso actors with prominent roles are pro wrestler Frank Stone, Jorge Estrada, and Jesus Moralez.. The title role \u201cDirt\u201d is played by actor Tyrone Betters, known for is role in A True Christmas. It also stars actor Jamal Woolard, best known for portraying rapper The Notorious B.I.G. in the film "Notorious", and in the Tupac Shakur biopic "All Eyez on Me".'
                   }
                 </div>
                 <h2
@@ -1715,7 +1867,7 @@ function PlasmicHome__RenderFunc(props) {
                   )}
                 >
                   {
-                    "The cast and crew of “Dirt” thanks you for joining our movement, bringing Texas talent to worldwide audiences!"
+                    "The cast and crew of \u201cDirt\u201d thanks you for joining our movement, bringing Texas talent to worldwide audiences!"
                   }
                 </div>
                 <h2
@@ -2214,7 +2366,7 @@ function PlasmicHome__RenderFunc(props) {
 
                           <React.Fragment>
                             {
-                              ', founder of Imani Films. The gritty storyline revolves around five characters who form an unlikely alliance against a common enemy. \n\nTo rescue his kidnapped partner, a rogue police detective must rely on the syndicate’s top lieutenant "Dirt" along with the man’s wife and two girlfriends all of whom have their own reasons for risking their lives to destroy the crime syndicate. \n\nThe movie was filmed entirely in El Paso and features Univision weather anchor '
+                              ', founder of Imani Films. The gritty storyline revolves around five characters who form an unlikely alliance against a common enemy. \n\nTo rescue his kidnapped partner, a rogue police detective must rely on the syndicate\u2019s top lieutenant "Dirt" along with the man\u2019s wife and two girlfriends all of whom have their own reasons for risking their lives to destroy the crime syndicate. \n\nThe movie was filmed entirely in El Paso and features Univision weather anchor '
                             }
                           </React.Fragment>
                           {
@@ -2329,7 +2481,7 @@ function PlasmicHome__RenderFunc(props) {
                           </span>
                           <React.Fragment>
                             {
-                              "lead role in the film “Notorious”, just to name a few of the amazing cast members!  \n\nExecutive produced and distributed by Maverick Entertainment in association with Imani Films, the film is scheduled for release in late 2023 on multiple platforms including Peacock, Amazon, Tubi, Redbox and more!"
+                              "lead role in the film \u201cNotorious\u201d, just to name a few of the amazing cast members!  \n\nExecutive produced and distributed by Maverick Entertainment in association with Imani Films, the film is scheduled for release in late 2023 on multiple platforms including Peacock, Amazon, Tubi, Redbox and more!"
                             }
                           </React.Fragment>
                         </React.Fragment>
@@ -2357,7 +2509,7 @@ function PlasmicHome__RenderFunc(props) {
 
                           <React.Fragment>
                             {
-                              ', founder of Imani Films. The gritty storyline revolves around five characters who form an unlikely alliance against a common enemy. \n\nTo rescue his kidnapped partner, a rogue police detective must rely on the syndicate’s top lieutenant "Dirt" along with the man’s wife and two girlfriends all of whom have their own reasons for risking their lives to destroy the crime syndicate. \n\nThe movie was filmed entirely in El Paso and features Univision weather anchor '
+                              ', founder of Imani Films. The gritty storyline revolves around five characters who form an unlikely alliance against a common enemy. \n\nTo rescue his kidnapped partner, a rogue police detective must rely on the syndicate\u2019s top lieutenant "Dirt" along with the man\u2019s wife and two girlfriends all of whom have their own reasons for risking their lives to destroy the crime syndicate. \n\nThe movie was filmed entirely in El Paso and features Univision weather anchor '
                             }
                           </React.Fragment>
                           {
@@ -2442,7 +2594,7 @@ function PlasmicHome__RenderFunc(props) {
 
                           <React.Fragment>
                             {
-                              ", known for his lead role in the film “Notorious”, just to name a few of the amazing cast members!  \n\nExecutive produced and distributed by Maverick Entertainment in association with Imani Films, the film is scheduled for release in late 2023 on multiple platforms including Peacock, Amazon, Tubi, Redbox and more!"
+                              ", known for his lead role in the film \u201cNotorious\u201d, just to name a few of the amazing cast members!  \n\nExecutive produced and distributed by Maverick Entertainment in association with Imani Films, the film is scheduled for release in late 2023 on multiple platforms including Peacock, Amazon, Tubi, Redbox and more!"
                             }
                           </React.Fragment>
                         </React.Fragment>

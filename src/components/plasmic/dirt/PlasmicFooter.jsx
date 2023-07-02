@@ -231,7 +231,9 @@ function PlasmicFooter__RenderFunc(props) {
                 sty.text__yC9Us
               )}
             >
-              {"© Company. All rights reserved. This site proudly built with "}
+              {
+                "\u00a9 Company. All rights reserved. This site proudly built with "
+              }
             </div>
             <a
               className={classNames(

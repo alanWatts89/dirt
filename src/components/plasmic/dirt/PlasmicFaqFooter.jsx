@@ -130,7 +130,7 @@ function PlasmicFaqFooter__RenderFunc(props) {
                   >
                     {hasVariant(globalVariants, "screen", "mobile")
                       ? "Behold our FAQ"
-                      : "226 rue St-Joseph E, \nQuébec, QC, Canada, \nG1K 3A9"}
+                      : "226 rue St-Joseph E, \nQu\u00e9bec, QC, Canada, \nG1K 3A9"}
                   </div>
                   <div
                     className={classNames(
@@ -288,7 +288,7 @@ function PlasmicFaqFooter__RenderFunc(props) {
                   )}
                 >
                   {
-                    "© Company. All rights reserved. This site proudly built with "
+                    "\u00a9 Company. All rights reserved. This site proudly built with "
                   }
                 </div>
                 <a
