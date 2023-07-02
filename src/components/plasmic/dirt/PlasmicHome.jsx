@@ -235,7 +235,7 @@ function PlasmicHome__RenderFunc(props) {
                       )}
                       href={
                         hasVariant(globalVariants, "screen", "mobile")
-                          ? "https://www.eventbrite.com/e/dirt-red-carpet-premiere-tickets-598048578397"
+                          ? "https://photos.app.goo.gl/AZsbozERsdaoCs4t8"
                           : "https://photos.app.goo.gl/AZsbozERsdaoCs4t8"
                       }
                       target={"_blank"}
